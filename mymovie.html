@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>我的视频</title>
+  <link rel="stylesheet" href="./css/mymovie.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/layui.css">
+  <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+<!--导航条的部分-->
+<div class="nav_all">
+  <div class="nav_list">
+    <ul class="nav_list_one">
+      <li class="jianju down" value="1">最热视频
+      </li>
+      <li class="jianju up" value="2">附近视频</li>
+    </ul>
+  </div>
+</div>
+<!--底部导航的部分-->
+<div class="footer">
+  <div class="footer_list">
+    <ul>
+      <li class="living"><a href="index.html">直播</a></li>
+      <li class="near"><a href="near_peopel.html">附近</a></li>
+      <li class="xing" onclick="xing_movie()"><a href="#"></a></li>
+      <li class="movie"><a href="mymovie.html">视频</a></li>
+      <li class="my"><a href="personal.html">我的</a></li>
+    </ul>
+  </div>
+</div>
+<!--最热视频中间的部分-->
+<div class="swiper-container hot_movie">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide hot_picture">
+      <div class="list_img">
+        <div class="list_img_left">
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay02.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">小阮、</span>
+            <span class="count">21345</span>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/coiplay06.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">木子</span>
+            <span class="count">21345</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt=""  class="kai_btn"></div>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay01.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">喵喵、</span>
+            <span class="count">5944</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+        </div>
+        <div class="list_img_right">
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay04.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">小阮、</span>
+            <span class="count">65456</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/colplay03.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">小音</span>
+            <span class="count">21345</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay05.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">羽神、</span>
+            <span class="count">65456</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide hot_picture">
+      <div class="list_img">
+        <div class="list_img_left">
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay02.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">小阮、</span>
+            <span class="count">21345</span>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/coiplay06.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">木子</span>
+            <span class="count">21345</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt=""  class="kai_btn"></div>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay01.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">喵喵、</span>
+            <span class="count">5944</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+        </div>
+        <div class="list_img_right">
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay04.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">小阮、</span>
+            <span class="count">65456</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/colplay03.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">小音</span>
+            <span class="count">21345</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+          <div class="img_1">
+            <img src="img/Cosplay/cosplay05.png" alt="">
+            <span class="zhibo-ing">直播中</span>
+            <span class="name">羽神、</span>
+            <span class="count">65456</span>
+            <div class="shadow"></div>
+            <div class="kaishi"><img src="./img/logo/kaishi.png" alt="" class="kai_btn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+<script>
+  var swiper=new Swiper(".swiper-container");
+
+  /*点击上传到星 视频*/
+  function xing_movie() {
+      window.location.href='xing_living.html';
+  }
+
+  var menuList =$(".nav_list_one").find("li");
+  menuList.each(function () {
+      $(this).click(function() {
+          menuList.each(function () {
+              $(this).removeClass("down");
+              $(this).addClass("up");
+          });
+          $( menuList[$(this).attr("value")-1]).removeClass("up").addClass("down");
+          swiper.slideTo($(this).attr("value")-1, 500, false);
+      })
+  });
+
+</script>
+</html>

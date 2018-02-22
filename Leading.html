@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>引导页</title>
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/leading.css">
+</head>
+<body>
+  <div class="swiper-container lead">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="./img/leading_img/lead_bg02.png" class="lead_img" alt="">
+        <span class="txt1">自定义主页<br>&nbsp;&nbsp;看你想看</span>
+      </div>
+      <div class="swiper-slide ">
+        <img src="./img/leading_img/lead_bg01.png" class="lead_img" alt="">
+        <span class="txt">探索全新玩法<br>&nbsp;&nbsp;玩你想玩</span>
+      </div>
+    </div>
+  </div>
+  <script src="./js/auto-size.js"></script>
+  <script src="./js/swiper.js"></script>
+  <script src="./js/jquery-3.2.1.js"></script>
+ <!--初始化swiper-->
+   <script>
+     var myswiper=new Swiper(".swiper-container",{
+         paginationClickable:true
+     });
+
+
+
+   </script>
+</body>
+</html>

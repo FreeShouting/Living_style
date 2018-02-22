@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>我的(个人中心)</title>
+  <link rel="stylesheet" href="./css/personal.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+<!--底部导航条-->
+<div class="footer">
+  <div class="footer_list">
+    <ul>
+      <li class="living"><a href="index.html">直播</a></li>
+      <li class="near"><a href="near_peopel.html">附近</a></li>
+      <li class="xing" onclick="xing_movie()"><a href="#"></a></li>
+      <li class="movie"><a href="mymovie.html">视频</a></li>
+      <li class="my"><a href="personal.html">我的</a></li>
+    </ul>
+  </div>
+</div>
+<!--导航条结束-->
+<!--头部-->
+     <div class="head">
+        <div class="head-img">
+          <img src="./img/personal/enjoy.png" alt="">
+        </div>
+       <!--头部的第二部分-->
+     <div class="introduce">
+        <div class="touxiang">
+          <img src="./img/personal/gr.jpg" alt="">
+        </div>
+       <div class="qianming">
+         <ul>
+           <li class="chenghao">网络红人</li>
+           <li class="sex"><img src="./img/personal/nan.png" alt=""></li>
+           <li class="jieshao">签名是什么东西</li>
+         </ul>
+         <div class="tu"></div>
+         <span class="ziliao" onclick="my_profile()">我的资料</span>
+       </div>
+     </div>
+       <!--头部的第三部分-->
+       <div class="dianzan">
+          <ul>
+            <li class="p_0"><a href="#">100</a>关注</li>
+            <li class="p_1"><a href="#">2520</a>粉丝</li>
+            <li class="p_2"><a href="#">1.5w</a>点赞</li>
+          </ul>
+       </div>
+       <!--头部的第四部分-->
+          <div class="menu">
+            <ul>
+              <li class="don down" value="1"><a href="#">我的动态</a></li>
+              <li class="don up" value="2"><a href="#">私信</a></li>
+              <li class="don up" value="3"><a href="#">个人中心</a></li>
+            </ul>
+          </div>
+     </div>
+         <!--头部份结束-->
+   <!--下面切换的部分-->
+  <div class="swiper-container person_infor">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide informa_one">
+            <div class="msg">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;空空如也<br>快来发布点新东西吧!</div>
+        </div>
+        <!--私信的部分-->
+        <div class="swiper-slide informa_one">
+             <div class="box_sixin">
+                 <!--私信上面的部分-->
+                 <div class="box_top">
+                      <div class="box1" onclick="Skip_friend()">
+                         <div class="img_one"></div>
+                          <p class="friends">我的朋友</p>
+                          <div class="btn"></div>
+                      </div>
+                      <div class="box2" onclick="Skip_customer()">
+                             <div class="img_one1"></div>
+                             <p class="friends1">客服精灵</p>
+                             <div class="btn1"></div>
+                         </div>
+                 </div>
+                 <!--私信下面的部分-->
+                 <div class="box_bottom">
+                   <div class="title">最近消息</div>
+                     <div class="list_msg">
+                         <div class="one"><img src="./img/personal/list01.jpg" alt=""></div>
+                         <ul class="two">
+                             <li class="msg_name">
+                                 <span class="name_tag">情系非主流、</span>
+                                 <span class="week">星期一</span>
+                             </li>
+                             <li class="msg_info">
+                                 <span class="info_tag">你的视频666，希望越来越好</span>
+                                 <span class="time">14:20</span>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="list_msg">
+                         <div class="one"><img src="./img/personal/list02.jpg" alt=""></div>
+                         <ul class="two">
+                             <li class="msg_name">
+                                 <span class="name_tag">情系非主流、</span>
+                                 <span class="week">星期一</span>
+                             </li>
+                             <li class="msg_info">
+                                 <span class="info_tag">你的视频666，希望越来越好</span>
+                                 <span class="time">14:20</span>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="list_msg">
+                         <div class="one"><img src="./img/personal/list03.jpg" alt=""></div>
+                         <ul class="two">
+                             <li class="msg_name">
+                                 <span class="name_tag">情系非主流、</span>
+                                 <span class="week">星期一</span>
+                             </li>
+                             <li class="msg_info">
+                                 <span class="info_tag">你的视频666，希望越来越好</span>
+                                 <span class="time">14:20</span>
+                             </li>
+                         </ul>
+                     </div>
+                     <div class="list_msg">
+                         <div class="one"><img src="./img/personal/list03.jpg" alt=""></div>
+                         <ul class="two">
+                             <li class="msg_name">
+                                 <span class="name_tag">情系非主流、</span>
+                                 <span class="week">星期一</span>
+                             </li>
+                             <li class="msg_info">
+                                 <span class="info_tag">你的视频666，希望越来越好</span>
+                                 <span class="time">14:20</span>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+        </div>
+        <!--私信的部分结束-->
+        <!--个人中心部分-->
+        <div class="swiper-slide informa_one">
+            <div class="person_user">
+               <div class="Personal_Center">
+                   <!--第一个盒子-->
+                   <div class="center_one1" onclick="skip_footprint()">
+                       <div class="foot"></div>
+                       <div class="word">我的足迹</div>
+                       <div class="person_btn"></div>
+                   </div>
+                   <!--第二个盒子-->
+                   <div class="center_one" onclick="skip_personalmovie()">
+                       <div class="foot1"></div>
+                       <div class="word1">我的视频</div>
+                       <div class="person_count">6个</div>
+                       <div class="person_btn"></div>
+                   </div>
+                   <!--第三个盒子-->
+                   <div class="center_one" onclick="skip_draft()">
+                       <div class="foot2"></div>
+                       <div class="word2">我的草稿</div>
+                       <div class="person_count2">6个</div>
+                       <div class="person_btn"></div>
+                   </div>
+                    <!--中间的空格-->
+                   <div class="gap"></div>
+                    <!--第四个盒子-->
+                   <div class="center_one">
+                       <div class="foot3"></div>
+                       <div class="word3">账号等级</div>
+                       <div class="person_count3">Lv 3</div>
+                       <div class="person_btn"></div>
+                   </div>
+                   <div class="center_one" onclick="skip_anchor()">
+                       <div class="foot4"></div>
+                       <div class="word4">主播等级</div>
+                       <div class="person_count4">未开启</div>
+                       <div class="person_btn"></div>
+                   </div>
+                   <div class="gap"></div>
+                   <div class="center_one" onclick="skip_wallet()">
+                       <div class="foot5"></div>
+                       <div class="word5">我的钱包</div>
+                       <div class="person_btn"></div>
+                   </div>
+                   <div class="center_one" onclick="skip_seetting()">
+                   <div class="foot6"></div>
+                   <div class="word6">用户设置</div>
+                   <div class="person_btn"></div>
+               </div>
+               </div>
+            </div>
+        </div>
+        <!--个人中心部分结束-->
+    </div>
+</div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+<script>
+    var swiper=new Swiper(".swiper-container");
+    /*点击上传到星 视频*/
+    /*点击切换事件*/
+    var menuList =$(".menu").find("li");
+    menuList.each(function () {
+        $(this).click(function() {
+            menuList.each(function () {
+                $(this).removeClass("down");
+                $(this).addClass("up");
+            });
+            $( menuList[$(this).attr("value")-1]).removeClass("up").addClass("down");
+            swiper.slideTo($(this).attr("value")-1, 500, false);
+
+
+        })
+    });
+
+
+    function xing_movie() {
+        window.location.href='xing_living.html';
+
+    }
+    /*点击跳转到我的朋友页面*/
+    function Skip_friend() {
+        window.location.href='my_friends.html';
+    }
+    /*点击跳转到客服精灵*/
+    function Skip_customer() {
+        window.location.href='Customer_service.html';
+    }
+   /*点击跳转到*/
+   function skip_footprint() {
+       window.location.href='my_footprint.html';
+   }
+
+   /*点击跳转到我的视频*/
+   function skip_personalmovie() {
+       window.location.href='personal_movie.html';
+   }
+   /*点击跳转到我的草稿*/
+   function skip_draft() {
+       window.location.href='my_draft.html';
+   }
+
+   /*点击跳转到主播等级*/
+   function skip_anchor() {
+       window.location.href='anchor_grades.html';
+   }
+   /*点击跳转到我的钱包*/
+     function skip_wallet() {
+         window.location.href='my_wallet.html';
+     }
+     /*点击跳转到用户设置*/
+    function skip_seetting() {
+        window.location.href='user_setting.html';
+    }
+    /*点击跳转到我的资料的页面*/
+    function my_profile() {
+        window.location.href='My_Profile.html';
+    }
+</script>
+</html>

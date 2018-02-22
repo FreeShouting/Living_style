@@ -1,0 +1,134 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.head{
+    width: 100%;
+    height: 0.7rem;
+    margin-top: 0.2rem;
+}
+.head .head_img{
+    background: url("../img/tuijie_img/icon.png") no-repeat 50.694% 27.481%;
+    background-size: 800px 800px;
+    width: 8px;
+    height: 14px;
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+    float: left;
+}
+
+.head h1{
+    font-size: 0.4rem;
+    float: left;
+    margin:0.2rem 0 0 2.5rem;
+}
+
+/*中间的部分*/
+.center{
+    width: 100%;
+    height: 12.3rem;
+    margin-top: 0.2rem;
+    background: #eeeeee;
+}
+
+.center .center_top h3{
+    font-size: 0.4rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.center .center_middle{
+    width: 100%;
+    position: relative;
+
+}
+
+.center .center_middle .anchor_img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0.8rem auto 0 auto;
+}
+.center .center_middle .anchor_img img{
+    width: 1.6rem;
+    height: 1.6rem;
+    display: block;
+    border-radius: 50%;
+}
+.center .center_middle .huangguan{
+    width: 0.95rem;
+    height:0.9rem;
+    position: absolute;
+    right: 37%;
+    top: -24%;
+}
+
+.center .center_middle .huangguan img{
+    width: 0.95rem;
+    height:0.9rem;
+    display: block;
+}
+
+.center_middle .dengji{
+    font-size: 0.4rem;
+    margin: 0 auto;
+}
+.center_middle .dengji label{
+    margin: 0.4rem 0 0 3.2rem;
+    font-weight: 600;
+}
+
+.progress{
+    width: 90%;
+    height: 10px;
+    background: #dddddd;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-radius: 0.2rem;
+    margin: 0.2rem 0 0 0.3rem;
+    position: relative;
+}
+.progress > span {
+    position: relative;
+    float: left;
+    margin: 0 -0.02rem;
+    min-width: 0.2rem;
+    height: 0.15rem;
+    line-height: 0.2rem;
+    text-align: right;
+    background: #f83169;
+    border: 1px solid;
+    border-color: #bfbfbf #b3b3b3 #9e9e9e;
+    border-radius: 0.2rem;
+}
+
+.progress .jindu{
+    font-size: 0.4rem;
+    color: #999999;
+    position: absolute;
+    left: 28%;
+    margin-top: 0.3rem;
+}
+
+.center .shengji h2{
+    font-size: 0.4rem;
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+.center_bottom{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.center_bottom p{
+    font-size: 0.3rem;
+    text-align: center;
+    font-weight: 600;
+    line-height: 0.6rem;
+}

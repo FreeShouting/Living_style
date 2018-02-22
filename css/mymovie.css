@@ -1,0 +1,291 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+}
+/*导航条的部分*/
+.nav_all{
+    width: 7.5rem;
+    height: 1rem;
+   /* margin: 0.2rem 0.1rem 0 0.14rem ;*/
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background-color: #fff;
+}
+.nav_all .nav_list .nav_list_one{
+    list-style: none;
+    font-size: 0.4rem;
+    margin-top: 0.3rem;
+
+}
+.nav_list_one li{
+    float: left;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.nav_list_one .jianju{
+    margin-left: 1.1rem;
+    margin-right: 0.8rem;
+}
+.nav_list_one .down{
+    color: black;
+    text-decoration: underline;
+}
+.nav_list_one .up{
+    color: #999999;
+}
+
+
+/*底部的部分*/
+.footer{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    background-color: white;
+}
+
+.footer .footer_list ul{
+    list-style: none;
+}
+.footer .footer_list ul li {
+    font-size: 0.25rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.1rem;
+    padding: 0.4rem 0.1rem 0 0.3rem;
+
+}
+
+.footer .footer_list li a{
+    line-height: 0.6rem;
+    text-decoration: none;
+}
+.footer .living{
+    background: url('../img/tuijie_img/icon.png') no-repeat 3.5% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .living a{
+    color: #999999;
+}
+.footer .near a{
+    color:#999999;
+}
+.footer .movie a{
+    color: black;
+}
+.footer .my a{
+    color:#999999;
+}
+
+.footer .near{
+    background: url('../img/tuijie_img/icon.png') no-repeat 12.619% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .xing{
+    background: url('../img/tuijie_img/icon.png')  no-repeat 21.099% 14.3%;
+    background-size: 800px 800px;
+    width: 33px;
+    height: 32px;
+}
+.footer .movie{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 29.415% 5.7%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+
+.footer .my{
+    background: url("../img/tuijie_img/icon.png") no-repeat 38.948% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+
+/*中间视频的部分*/
+.hot_movie{
+   height: 100%;
+    width: 100%;
+}
+
+.hot_movie .hot_picture{
+    width: 100%;
+    margin-top: 1.2rem;
+}
+/*最热视频*/
+.list_img{
+    height: 100%;
+}
+
+.list_img .list_img_left{
+    width: 3.75rem;
+    float: left;
+}
+.list_img .list_img_right{
+    width: 3.75rem;
+    float:right;
+}
+.list_img_left .img_1{
+    position: relative;
+}
+/*遮罩层*/
+.list_img_left .shadow{
+    width:3.75rem;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.list_img_left .kaishi{
+    height: 1.26rem;
+    width: 1.26rem;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+/*左边的部分结束*/
+
+/*遮罩层右边的部分*/
+.list_img_right .shadow{
+    width:3.75rem;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.list_img_right .kaishi{
+    height: 1.26rem;
+    width: 1.26rem;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+.list_img_right .kaishi .kai_btn{
+    height: 1.26rem;
+    width: 1.26rem;
+    display:block;
+}
+
+/*右边的部分结束*/
+
+.list_img_left .kaishi .kai_btn{
+    height: 1.26rem;
+    width: 1.26rem;
+    display:block;
+}
+
+.list_img_left .img_1 img{
+    width:3.75rem;
+    height: 100%;
+    display: block;
+}
+.list_img_left .img_1 .name{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+
+/*点赞次数定位*/
+.list_img_left .img_1 .count{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+}
+.list_img_left .img_1 .zhibo-ing{
+    display: block;
+    position: absolute;
+    height: 0.5rem;
+    width: 1rem;
+    border: 1px solid #fff;
+    background: #0f0f0f;
+    opacity: 0.3;
+    right: 0.2rem;
+    top: 0.2rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*右边的部分*/
+.list_img_right .img_1{
+    position: relative;
+}
+.list_img_right .img_1 img{
+    width:3.75rem;
+    height: 100%;
+    display: block;
+}
+.list_img_right .img_1 .name{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+/*点赞次数定位*/
+.list_img_right .img_1 .count{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+}
+.list_img_right .img_1 .zhibo-ing{
+    display: block;
+    position: absolute;
+    height: 0.5rem;
+    width: 1rem;
+    border: 1px solid #fff;
+    background: #0f0f0f;
+    opacity: 0.3;
+    right: 0.2rem;
+    top: 0.2rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+/*开始直播*/
+.kaibo ul li{
+    width:  1.2rem;
+    height: 0.88rem;
+    float: left;
+    color: #999999;
+    margin-top: 0.8rem;
+}
+
+.kaibo ul li img{
+    width:  1.2rem;
+    height: 0.88rem;
+}
+.kaibo .shangchuang{
+    margin-left: 0.5rem;
+}
+.kaibo .start{
+    margin-left: 1.5rem;
+}
+.kaibo .kaipai{
+    margin-left: 1.5rem;
+}
+.kaibo ul li p{
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>隐私设置</title>
+  <link rel="stylesheet" href="./css/privacy_setting.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_usersrtting()"></div>
+  <h1>隐私设置</h1>
+</div>
+<!--用户设置的列表-->
+<div class="setting_list">
+  <ul>
+    <li class="yue">公开我的动态
+      <div class="qie_btn base"></div>
+    </li>
+    <li class="shouyi">公开我的资料
+      <div class="qie_btn base"></div>
+    </li>
+    <li class="xiaofei">允许发送私信
+      <div class="qie_btn base"></div>
+    </li>
+    <li class="benyue">公开地理位置
+      <div class="qie_btn base"></div>
+    </li>
+    <li class="benyue">匿名发送弹幕
+      <div class="guan_btn base"></div>
+    </li>
+    <li class="benyue">入场提示开启
+      <div class="qie_btn base"></div>
+    </li>
+    <li class="benyue">充值消费隐藏
+      <div class="guan_btn base"></div>
+    </li>
+  </ul>
+</div>
+
+  <div class="xingxing">
+    <img src="./img/logo/xingxing.png" alt="">
+  </div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+  <script>
+
+      $(function () {
+          $('.base').click(function () {
+              if($(this).hasClass("qie_btn")){
+                  $(this).removeClass("qie_btn");
+                  $(this).addClass("guan_btn");
+              }else{
+                  $(this).removeClass("guan_btn");
+                  $(this).addClass("qie_btn");
+              }
+
+
+          });
+      });
+    function skip_usersrtting() {
+        window.location.href='user_setting.html';
+    }
+  </script>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>搜索页面</title>
+  <link rel="stylesheet" href="./css/search.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--直播页面的导航条-->
+<div class="nav_all">
+  <div class="nav_list">
+    <ul class="nav_list_one">
+      <li class="don down" value="1">推介</li>
+      <li class="don up" value="2">ASMR</li>
+      <li class="don up" value="3">Cosplay</li>
+      <li class="don up" value="4">排行版</li>
+      <li class="don up" value="5">搜索</li>
+    </ul>
+  </div>
+</div>
+<!--导航条结束-->
+<!--底部的部分-->
+<div class="footer">
+  <div class="footer_list">
+    <ul>
+      <li class="living"><a href="index.html">直播</a></li>
+      <li class="near"><a href="near_peopel.html">附近</a></li>
+      <li class="xing" onclick="xing_movie()"><a href="#"></a></li>
+      <li class="movie"><a href="mymovie.html">视频</a></li>
+      <li class="my"><a href="personal.html">我的</a></li>
+    </ul>
+  </div>
+</div>
+<!--底部结束-->
+<div class="search_box">
+  <input type="text" value="" name="" placeholder="尼日尔">
+</div>
+<div class="menu">
+  <ul>
+    <li class="user down" value="1">用户</li>
+    <li class="user up" value="2">直播</li>
+    <li class="user up" value="3">视频</li>
+  </ul>
+</div>
+<div class="yun"></div>
+
+
+<!--搜索页面中间的部分-->
+<div class="swiper-container search_all">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide search_info">
+      <div class="div2">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/search/search01.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">尼尔</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+            </ul>
+            <!--<span class="one">阈值大家的</span>
+            <span class="two">Cosplay</span>-->
+            <span class="dian-count">I miss you</span>
+          </div>
+        </div>
+        <button class="guanzhu">关注</button>
+      </div>
+      <div class="div2">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/search/search02.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">尼尔</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+            </ul>
+            <!--<span class="one">阈值大家的</span>
+            <span class="two">Cosplay</span>-->
+            <span class="dian-count">I miss you</span>
+          </div>
+        </div>
+        <button class="guanzhu">关注</button>
+      </div>
+      <div class="div2">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/search/search03.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">尼尔</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+            </ul>
+            <!--<span class="one">阈值大家的</span>
+            <span class="two">Cosplay</span>-->
+            <span class="dian-count">一起来玩吧</span>
+          </div>
+        </div>
+        <button class="guanzhu">关注</button>
+      </div>
+      <div class="div2">
+      <div class="dian">
+        <!--图片-->
+        <div class="dian-img">
+          <img src="./img/search/search04.png" alt="">
+        </div>
+        <!--名字-->
+        <div class="dian-name">
+          <ul>
+            <li class="one">尼尔biubiu</li>
+            <li class="two"><img src="./img/search/nv.png" alt=""></li>
+          </ul>
+          <!--<span class="one">阈值大家的</span>
+          <span class="two">Cosplay</span>-->
+          <span class="dian-count">圣光。。</span>
+        </div>
+      </div>
+      <button class="guanzhu ">关注</button>
+    </div>
+      <div class="div2">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/search/search04.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">尼尔biubiu</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+            </ul>
+            <!--<span class="one">阈值大家的</span>
+            <span class="two">Cosplay</span>-->
+            <span class="dian-count">圣光。。</span>
+          </div>
+        </div>
+        <button class="guanzhu">关注</button>
+      </div>
+
+    </div>
+    <!--直播-->
+    <div class="swiper-slide search_info">
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/zhibo/zhibo01.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">小凯</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">正在直播<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/zhibo/zhibo02.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">为2B打call</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">正在直播<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/zhibo/zhibo03.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">死神小学生</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">正在直播<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/zhibo/zhibo04.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">玻璃心</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">正在直播<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/zhibo/zhibo05.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">死亡之屋</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">正在直播<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-slide search_info">
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/movie/movie01.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">2B的一百种死法</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">上传与2017年11月1日<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/movie/movie02.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">超清壁纸</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">上传与2017年11月1日<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/movie/movie03.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">Aier A2攻略</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">上传与2017年11月1日<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="dian">
+          <!--图片-->
+          <div class="dian-img">
+            <img src="./img/movie/movie04.png" alt="">
+          </div>
+          <!--名字-->
+          <div class="dian-name">
+            <ul>
+              <li class="one">Aier A2攻略</li>
+              <li class="two"><img src="./img/search/nv.png" alt=""></li>
+              <li class="dian-count">上传与2017年11月1日<label>&nbsp;尼尔机械纪元</label></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    var swiper=new Swiper('.swiper-container');
+    /*点击上传到星 视频*/
+    function xing_movie() {
+        window.location.href='xing_living.html';
+
+    }
+    /*切换三个收索的视频*/
+    var menuList =$(".menu").find("li");
+    menuList.each(function () {
+        $(this).click(function() {
+            menuList.each(function () {
+                $(this).removeClass("down");
+                $(this).addClass("up");
+            });
+            $( menuList[$(this).attr("value")-1]).removeClass("up").addClass("down");
+            swiper.slideTo($(this).attr("value")-1, 500, false);
+        })
+    });
+
+    var buttonList=$('div2').find('button');
+    buttonList.each(function () {
+        $(this).click(function () {
+            buttonList.each(function () {
+                $(this).html('已关注');
+                $(this).removeClass('guanzhu');
+                $(this).addClass('bianhong')
+            });
+            $(this).html('关注');
+            $(this).addClass('.guanzhu');
+           $(this).removeClass('bainhong')
+        })
+    });
+
+</script>
+</html>

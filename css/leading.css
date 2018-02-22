@@ -1,0 +1,32 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li,
+ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+.lead {
+    width: 7.5rem;
+    height: 12.8rem;
+    position: relative;
+}
+.lead_img{
+    width: 7.5rem;
+    height: 100%;
+}
+.lead .txt{
+    position: absolute;
+    bottom: 1.6rem;
+    left: 2rem;
+    font-size: 0.6rem;
+    width: 3.7rem;
+    display: inline-block;
+    color: #fe8c08;
+}
+.lead .txt1{
+    position: absolute;
+    bottom: 1.6rem;
+    left: 2rem;
+    font-size: 0.6rem;
+    width: 3.5rem;
+    display: inline-block;
+    color: #fe8c08;
+}

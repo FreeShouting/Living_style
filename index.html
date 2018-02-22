@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>首页</title>
+  <link rel="stylesheet" href="./css/tujie.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+  <!--直播的主页面-->
+     <!--直播页面的导航条-->
+        <div class="nav_all">
+           <div class="nav_list">
+              <ul class="nav_list_one">
+                <li class="don down" value="1">推介</li>
+                <li class="don up" value="2">ASMR</li>
+                <li class="don up" value="3">Cosplay</li>
+                <li class="don up" value="4">排行版</li>
+                <li class="don up" value="5">搜索</li>
+              </ul>
+           </div>
+        </div>
+      <!--导航条结束-->
+  <!--底部的部分-->
+     <div class="footer">
+         <div class="footer_list">
+             <ul>
+                 <li class="living"><a href="index.html">直播</a></li>
+                 <li class="near"><a href="near_peopel.html">附近</a></li>
+                 <li class="xing" onclick="xing_movie()"><a href="#"></a></li>
+                 <li class="movie"><a href="mymovie.html">视频</a></li>
+                 <li class="my"><a href="personal.html">我的</a></li>
+             </ul>
+         </div>
+     </div>
+  <!--底部结束-->
+   <!--直播的页面-->
+    <div class="swiper-container1 all_picture">
+         <div class="swiper-wrapper">
+             <!--第一组直播 推介-->
+             <div class="swiper-slide z_picture">
+                  <div class="left_img" onclick="skip_living()">
+                    <div class="img_1">
+                      <img src="img/tuijie_img/zhibo04.png" alt="">
+                        <span class="zhibo-ing">直播中</span>
+                        <span class="name">瑶瑶、</span>
+                        <span class="count">65456</span>
+                    </div>
+                      <div class="img_1" >
+                      <img src="img/tuijie_img/zhibo02.png" alt="">
+                          <span class="zhibo-ing">直播中</span>
+                          <span class="name">喵喵、</span>
+                          <span class="count">5944</span>
+                  </div>
+                      <div class="img_1">
+                      <img src="img/tuijie_img/zhibo01.png" alt="">
+                          <span class="zhibo-ing">直播中</span>
+                          <span class="name">喵喵、</span>
+                          <span class="count">5944</span>
+                  </div>
+                  </div>
+                  <div class="right_img" onclick="skip_living()">
+                      <div class="img_1">
+                          <img src="img/tuijie_img/zhibo03.png" alt="">
+                          <span class="zhibo-ing">直播中</span>
+                          <span class="name">小阮、</span>
+                          <span class="count">65456</span>
+                      </div>
+                      <div class="img_1">
+                          <img src="img/tuijie_img/zhibo06.png" alt="">
+                          <span class="zhibo-ing">直播中</span>
+                          <span class="name">小音</span>
+                          <span class="count">21345</span>
+                      </div>
+                      <div class="img_1">
+                          <img src="img/tuijie_img/zhibo.png" alt="">
+                          <span class="zhibo-ing">直播中</span>
+                          <span class="name">羽神、</span>
+                          <span class="count">65456</span>
+                      </div>
+                  </div>
+             </div>
+             <!--第二组直播 ASMR-->
+             <div class="swiper-slide z_picture">
+                 <div class="left_img" onclick="skip_living()">
+                     <div class="img_1">
+                         <img src="img/ASMR/asmr02.png" alt="">
+                         <span class="zhibo-ing">直播中</span>
+                         <span class="name">小阮、</span>
+                         <span class="count">21345</span>
+                     </div>
+                     <div class="img_1">
+                         <img src="img/ASMR/asmr03.png" alt="">
+                         <span class="zhibo-ing">直播中</span>
+                         <span class="name">木子</span>
+                         <span class="count">21345</span>
+                     </div>
+                     <div class="img_1">
+                         <img src="img/ASMR/asmr06.png" alt="">
+                         <span class="zhibo-ing">直播中</span>
+                         <span class="name">木子</span>
+                         <span class="count">21345</span>
+                     </div>
+                 </div>
+                 <div class="right_img" onclick="skip_living()">
+                     <div class="img_1">
+                         <img src="img/ASMR/asmr04.png" alt="">
+                         <span class="zhibo-ing">直播中</span>
+                         <span class="name">狐狸酱、</span>
+                         <span class="count">21345</span>
+                     </div>
+                     <div class="img_1">
+                         <img src="img/ASMR/asmr01.png" alt="">
+                         <span class="zhibo-ing">直播中</span>
+                         <span class="name">哎哟喂、</span>
+                         <span class="count">21345</span>
+                     </div>
+                     <div class="img_1">
+                         <img src="img/ASMR/asmr05.png" alt="">
+                         <span class="zhibo-ing">直播中</span>
+                     </div>
+                 </div>
+             </div>
+             <!--第三组直播 Cosplay-->
+             <div class="swiper-slide z_picture">
+             <div class="left_img" onclick="skip_living()">
+                 <div class="img_1">
+                     <img src="img/Cosplay/cosplay02.png" alt="">
+                     <span class="zhibo-ing">直播中</span>
+                     <span class="name">小云、</span>
+                     <span class="count">21345</span>
+                 </div>
+                 <div class="img_1">
+                     <img src="img/Cosplay/coiplay06.png" alt="">
+                     <span class="zhibo-ing">直播中</span>
+                     <span class="name">阿苗、</span>
+                     <span class="count">21345</span>
+                 </div>
+                 <div class="img_1">
+                     <img src="img/Cosplay/cosplay01.png" alt="">
+                     <span class="zhibo-ing">直播中</span>
+                 </div>
+             </div>
+             <div class="right_img" onclick="skip_living()">
+                 <div class="img_1">
+                     <img src="img/Cosplay/cosplay04.png" alt="">
+                     <span class="zhibo-ing">直播中</span>
+                     <span class="name">果子狸、</span>
+                     <span class="count">21345</span>
+                 </div>
+                 <div class="img_1">
+                     <img src="img/Cosplay/cosplay05.png" alt="">
+                     <span class="zhibo-ing">直播中</span>
+                     <span class="name">阴阳师、</span>
+                     <span class="count">21345</span>
+                 </div>
+                 <div class="img_1">
+                     <img src="img/Cosplay/colplay03.png" alt="">
+                     <span class="zhibo-ing">直播中</span>
+                 </div>
+             </div>
+             </div>
+             <!--第四组排行版-->
+             <div class="swiper-slide z_picture">
+                 <div class="swiper-container2 paihang" >
+                     <div class="contain">
+                        <div class="jianju down" value="1" >点赞榜</div>
+                        <div class="jianju up" value="2">打赏榜</div>
+                     </div>
+                       <div class="swiper-wrapper">
+                           <!--打赏榜-->
+                            <div class="swiper-slide g_worn" >
+                                <div class="div1">
+                                    <div class="dian">
+                                        <div class="dian-img">
+                                        <img src="./img/dianzan/dianzan01.png" alt="">
+                                        </div>
+                                          <div class="dian-name">
+                                                  <span class="one">夕颜</span>
+                                                  <span class="two">Cosplay</span>
+                                              <span class="dian-count">获赞<label>25255</label>次</span>
+                                          </div>
+                                    </div>
+                                    <button class="guanzhu">已关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan02.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">羽神</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan03.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">迷途、</li>
+                                                <li class="two">自由主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan04.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">果子狸</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan05.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">宇智波胖虎</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan06.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">小云</li>
+                                                <li class="two">自由主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan07.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">瑶瑶、</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan02.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">木子、</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>15828</label>次</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                            </div>
+                           <!--排行榜-->
+                            <div class="swiper-slide g_worn">
+                                <div class="div1">
+                                    <div class="dian">
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan01.png" alt="">
+                                        </div>
+                                        <div class="dian-name">
+                                            <span class="one">夕颜</span>
+                                            <span class="two">Cosplay</span>
+                                            <span class="dian-count">获赏<label>25255</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">已关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan02.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">羽神</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赏<label>1527</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan03.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">迷途、</li>
+                                                <li class="two">自由主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赞<label>17147</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan04.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">果子狸</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赏<label>8571</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan05.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">宇智波胖虎</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赏<label>56741</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan06.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">小云</li>
+                                                <li class="two">自由主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赏<label>13954</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan07.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">瑶瑶、</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赏<label>53415</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                                <div class="div2">
+                                    <div class="dian">
+                                        <!--图片-->
+                                        <div class="dian-img">
+                                            <img src="./img/dianzan/dianzan02.png" alt="">
+                                        </div>
+                                        <!--名字-->
+                                        <div class="dian-name">
+                                            <ul>
+                                                <li class="one">木子、</li>
+                                                <li class="two">签约主播</li>
+                                            </ul>
+                                            <!--<span class="one">阈值大家的</span>
+                                            <span class="two">Cosplay</span>-->
+                                            <span class="dian-count">获赏<label>42558</label>星币</span>
+                                        </div>
+                                    </div>
+                                    <button class="guanzhu">关注</button>
+                                </div>
+                            </div>
+                       </div>
+                 </div>
+             </div>
+             <!--第五组搜索榜-->
+             <div class="swiper-slide z_picture">
+                 <div class="sear">
+                   <form action="#" method="get">
+                     <input type="text" class="sea1" name="#" placeholder="输入感兴趣的内容">
+                 </form>
+             </div>
+                 <div class="history_search">
+                     <p class="txt_search">历史收索</p>
+                     <div class="tx_img">
+                         <img src="./img/start_img/rubish.png" alt="">
+                     </div>
+                 </div>
+
+                 <div class="hot_search">
+                      <p class="hot_txt">热门搜索</p>
+                     <div class="hot_list">
+                         <ul>
+                             <li>男神</li>
+                             <li>校园</li>
+                             <li>陈学冬</li>
+                             <li>黄子韬</li>
+                             <li>林允儿</li>
+                             <li>ASMR</li>
+                             <li>Cosplay</li>
+                             <li>3D环绕音</li>
+                             <li>脱口秀</li>
+                             <li>女神</li>
+                             <li>尼尔机械纪元</li>
+                         </ul>
+                     </div>
+                 </div>
+         </div>
+    </div>
+    </div>
+</body>
+
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+  <script>
+     /* var lead_page=new Swiper(".swiper-container");*/
+      var all_picture=new Swiper(".swiper-container1");
+
+
+     var menuList =$(".nav_list_one").find("li");
+     menuList.each(function () {
+         $(this).click(function() {
+             menuList.each(function () {
+                 $(this).removeClass("down");
+                 $(this).addClass("up");
+             });
+             $( menuList[$(this).attr("value")-1]).removeClass("up").addClass("down");
+             all_picture.slideTo($(this).attr("value")-1, 500, false);
+         })
+     });
+
+      /*嵌套的切换*/
+          var paihang=new Swiper(".swiper-container2",{
+              nested:true,
+              resistanceRatio: 0,
+      });
+
+     var menuList1 =$(".contain").find("div");
+     menuList1.each(function () {
+         $(this).click(function() {
+             menuList1.each(function () {
+                 $(this).removeClass("down");
+                 $(this).addClass("up");
+             });
+             $( menuList1[$(this).attr("value")-1]).removeClass("up").addClass("down");
+            paihang.slideTo($(this).attr("value")-1, 500, false);
+         })
+     });
+
+      //layer
+      setTimeout(function (){
+          layer.open({
+              type: 1,
+              /*area: '6rem',*/
+              area: ['6rem', '4.9rem'],
+              content: '<div class="layer">' +
+              '<button class="color_y" onclick="TelLogin()">手机登录</button>' +
+              '<button class="color_r">微信登录</button>' +
+              ' <span>以下方式</span>' +
+              '<div class="contact"><ul>' +
+              '<li><p><img src="./img/contact/weibo.png" alt=""></p><a href="#">微博</a></li>' +
+              '<li><p><img src="./img/contact/QQ.png" alt=""></p><a href="#"> &nbsp;QQ</a></li>' +
+              '<li><p><img src="./img/contact/more.png" alt=""></p><a href="#">更多</a></li></ul>' +
+              '</div>'+
+              '</div>'
+          });
+      },3000);
+
+          /*点击跳转手机登录*/
+         function TelLogin() {
+             window.location.href='iphone_login.html';
+         }
+
+        /*点击上传到星 视频*/
+        function xing_movie() {
+            window.location.href='xing_living.html';
+        }
+        /*点击跳转到直播的页面*/
+        function skip_living() {
+            window.location.href='living.html';
+        }
+  </script>
+</html>

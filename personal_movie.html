@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>个人中心(我的视频)</title>
+  <link rel="stylesheet" href="./css/personal_movie.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_personal()"></div>
+  <h1>我的视频</h1>
+</div>
+  <!--我的视频的列表-->
+    <div class="movie">
+      <div class="div3">
+        <div class="div3-img">
+          <img src="./img/movie/movie01.png" alt="">
+        </div>
+        <div class="message">
+          <ul>
+            <li class="tit">45度倾斜舞蹈</li>
+             <li class="count"><span>点赞数</span>&nbsp;200</li>
+            <li class="name"><span>播放量</span>&nbsp;1020<label>2017年11月4日</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="div3-img">
+          <img src="./img/movie/movie02.png" alt="">
+        </div>
+        <div class="message">
+          <ul>
+            <li class="tit">MC 我的世界</li>
+            <li class="count"><span>点赞数</span>&nbsp;5511</li>
+            <li class="name"><span>播放量</span>&nbsp;1.3W<label>2017年11月4日</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="div3-img">
+          <img src="./img/movie/movie03.png" alt="">
+        </div>
+        <div class="message">
+          <ul>
+            <li class="tit">古墓崛起第一章</li>
+            <li class="count"><span>点赞数</span>&nbsp;1.6万</li>
+            <li class="name"><span>播放量</span>&nbsp;3W<label>2017年11月4日</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="div3-img">
+          <img src="./img/movie/movie04.png" alt="">
+        </div>
+        <div class="message">
+          <ul>
+            <li class="tit">古墓崛起 隐秘的绿洲</li>
+            <li class="count"><span>点赞数</span>&nbsp;5541</li>
+            <li class="name"><span>播放量</span>&nbsp;1258<label>2017年11月4日</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="div3">
+        <div class="div3-img">
+          <img src="./img/movie/movie05.png" alt="">
+        </div>
+        <div class="message">
+          <ul>
+            <li class="tit">qq飞车 天国的阶梯 赛道跑法</li>
+            <li class="count"><span>点赞数</span>&nbsp;1万</li>
+            <li class="name"><span>播放量</span>&nbsp;2.6万<label>2017年11月4日</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    var swiper=new Swiper(".swiper-container");
+    /*返回个人中心*/
+    function skip_personal() {
+        window.location.href='personal.html';
+    }
+
+</script>
+</html>

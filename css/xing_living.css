@@ -1,0 +1,541 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+}
+/*导航条的部分*/
+.nav_all{
+    width: 7.5rem;
+    height: 1rem;
+    /* margin: 0.2rem 0.1rem 0 0.14rem ;*/
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+}
+.nav_all .nav_list .nav_list_one{
+    list-style: none;
+    font-size: 0.35rem;
+    margin-top: 0.3rem;
+
+}
+.nav_list_one li{
+    padding-left: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.nav_list_one .don{
+    float: left;
+}
+.nav_list_one .down{
+    color: black;
+    text-decoration: underline;
+}
+
+.nav_list_one .up{
+    color: #999999;
+}
+
+.nav_list_one .tu{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 30.691% 27.721%;
+    background-size: 800px 800px;
+    width: 18px;
+    height: 19px;
+    margin:0.1rem 0 0 0.1rem;
+}
+/*中间直播的图片*/
+.all_picture{
+    height: 12.8rem;
+    width: 7.5rem;
+}
+.z_picture{
+    width: 7.5rem;
+    clear: both;
+    margin-top: 1.3rem;
+}
+/*直播左边右边的大小*/
+.left_img {
+    width: 3.75rem;
+    height: 10rem;
+    float: left;
+}
+
+.right_img{
+    width: 3.75rem;
+    height: 10rem;
+    float: right;
+}
+/*直播左右的图片*/
+.left_img .img_1 img{
+    width:3.75rem;
+    height: 100%;
+    display: block;
+}
+.left_img .img_1{
+    position: relative;
+}
+.right_img .img_1{
+    position: relative;
+}
+
+/*姓名定位*/
+.right_img .img_1 .name{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+/*点赞次数定位*/
+.right_img .img_1 .count{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+}
+.left_img .img_1 .name{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    left: 0.1rem;
+    bottom: 0.1rem;
+}
+/*点赞次数定位*/
+.left_img .img_1 .count{
+    color: white;
+    font-size: 0.3rem;
+    position: absolute;
+    right: 0.1rem;
+    bottom: 0.1rem;
+}
+
+
+.right_img .img_1 .zhibo-ing{
+    display: block;
+    position: absolute;
+    height: 0.5rem;
+    width: 1rem;
+    border: 1px solid #fff;
+    background: #0f0f0f;
+    opacity: 0.3;
+    right: 0.2rem;
+    top: 0.2rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.left_img .img_1 .zhibo-ing{
+    display: block;
+    position: absolute;
+    height: 0.5rem;
+    width: 1rem;
+    border: 1px solid #fff;
+    background: #0f0f0f;
+    opacity: 0.3;
+    right: 0.2rem;
+    top: 0.2rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.right_img .img_1 img{
+    width:3.75rem;
+    height: 100%;
+    display: block;
+}
+/*底部的部分*/
+.footer{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    background-color: white;
+}
+
+.footer .footer_list ul{
+    list-style: none;
+}
+.footer .footer_list li {
+    font-size: 0.25rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.1rem;
+    padding: 0.4rem 0.1rem 0 0.3rem;
+
+}
+
+.footer .footer_list li a{
+    line-height: 0.6rem;
+    color: #999999;
+}
+.footer .living{
+    background: url("../img/tuijie_img/icon.png") no-repeat 3.7% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .living>a{
+    color: black;
+}
+
+.footer .near{
+    color:#999999;
+    background: url("../img/tuijie_img/icon.png") no-repeat 12.619% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .xing{
+    background: url("../img/tuijie_img/icon.png") no-repeat 21.099% 4.547%;
+    background-size: 800px 800px;
+    width: 33px;
+    height: 30px;
+}
+
+.footer .movie{
+    background: url("../img/tuijie_img/icon.png") no-repeat 29.415% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+    color:#999999;
+}
+
+.footer .my{
+    background: url("../img/tuijie_img/icon.png") no-repeat 38.948% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+    color:#999999;
+
+}/*底部结束*/
+/*排行榜*/
+.swiper-container2{
+    width: 7.5rem;
+    /*height: 10.8rem;*/
+    height: 100%;
+}
+.paihang .contain{
+    width: 7.5rem;
+    height: 0.4rem;
+    /*position: relative;*/
+    position: fixed;
+    z-index: 999;
+}
+.paihang .contain .jianju{
+    float: left;
+    margin-left: 2rem;
+    font-size: 0.3rem;
+}
+
+.paihang .contain .down{
+    color: black;
+    text-decoration: underline;
+}
+.paihang .contain .up{
+    color:#999999;
+
+}
+/*点赞场*/
+.g_worn{
+    width: 7.25rem;
+    margin-top: 0.3rem;
+}
+.order_line{
+    width: 7.25rem;
+    margin-top: 0.3rem;
+}
+.g_worn .div1{
+    width: 7.5rem;
+    height: 1.5rem;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 0.1rem;
+    position: relative;
+}
+
+.div1 .dian{
+    width: 4rem;
+    height: 1.5rem;
+    position: absolute;
+}
+
+.div1 .dian-img img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: 0.2rem 0 0 0.2rem;
+    border: 1px solid salmon;
+    float: left;
+}
+
+.div1 .dian .dian-name{
+    width: 2.5rem;
+    height: 1.3rem;
+    float: right;
+    margin-top: 0.1rem;
+    position: relative;
+}
+.div1 .dian-name .one{
+    font-size: 0.4rem;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+}
+.div1 .dian-name .two{
+    font-size: 0.3rem;
+    position: absolute;
+    left: 1.1rem;
+    top: 0.3rem;
+    border: 2px solid #eeeeee;
+    color:  #999999;
+}
+.div1 .dian-name .dian-count{
+    font-size: 0.3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.div1 .dian-name .dian-count label{
+    color: #fc2763;
+}
+
+.div1 .guanzhu{
+    width: 1.3rem;
+    height: 0.6rem;
+    background: #fd2360;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.3rem;
+    font-size: 0.4rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    line-height: 0.6rem;
+
+}
+
+/*未关注的盒子*/
+.g_worn .div2{
+    width: 7.5rem;
+    height: 1.5rem;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 0.1rem;
+    position: relative;
+}
+
+.div2 .dian-img img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: 0.2rem 0 0 0.2rem;
+    border: 1px solid salmon;
+    float: left;
+}
+.div2 .guanzhu{
+    width: 1.3rem;
+    height: 0.6rem;
+    background: #fd2360;
+    opacity: 0.2;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.4rem;
+    font-size: 0.4rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    line-height: 0.6rem;
+    border: 1px solid #f6cf0a;
+}
+.div2 .dian .dian-name {
+    height: 1.3rem;
+    margin-top: 0.1rem;
+    margin-left:1.3rem;
+    position: relative;
+}
+
+.div2 .dian .dian-name ul{
+    list-style-type: none;
+}
+.div2 .dian .dian-name li{
+    font-size: 0.3rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.3rem;
+}
+.div2 .dian-name .dian-count label{
+    color: #fc2763;
+}
+.div2 .dian-name .dian-count{
+    font-size: 0.3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.1rem;
+}
+.div2 .dian .dian-name .two{
+    border: 2px solid #eeeeee;
+    color:  #999999;
+    margin-left: 0.2rem;
+}
+
+/*.div2 .dian-name .one{
+   position: absolute;
+    top: 0.1rem;
+    left: 0;
+}
+.div2 .dian-name .two{
+   position: absolute;
+   top: 0.1rem;
+   left: 2.1rem;
+}*/
+/*搜索页面*/
+.sear{
+    width: 7.3rem;
+    height: 0.8rem;
+    margin-left: 0.4rem;
+    position: relative;
+
+}
+.sear form{
+    height: 0.7rem;
+}
+.sear form input{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 0.7rem;
+    width: 6.5rem;
+    border: solid 2px #ffffff;
+    outline: none;
+    background-color: #eeeeee;
+    opacity: 0.5;
+    border-radius: 20px;
+}
+.history_search{
+    width: 7.5rem;
+    height: 3.5rem;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 0.5rem;
+    position: relative;
+}
+.history_search .txt_search{
+    font-size: 0.3rem;
+    color: #999999;
+    width: 1.5rem;
+    margin-left: 0.2rem;
+}
+.history_search .tx_img  img{
+    width: 0.35rem;
+    height: 0.49rem;
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.2rem;
+}
+.hot_search{
+    width: 7.5rem;
+    height:5rem;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.hot_search .hot_txt{
+    font-size: 0.3rem;
+    color: #999999;
+    width: 1.5rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+/*随机排列数组*/
+.hot_search .hot_list{
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid firebrick;
+    border-radius:100%;
+    margin-left: 1.2rem;
+}
+.hot_search .hot_list ul{
+    list-style-type: none;
+}
+.hot_search .hot_list ul li{
+    font-size: 0.3rem;
+    display: inline-block;
+}
+
+.layer button{
+    margin: 0.3rem auto;
+    display: block;
+    height: 0.7rem;
+    width: 2rem;
+    border: none;
+    outline: none;
+    font-size: 0.4rem;
+    color: #fff;
+    border-radius: 20px;
+}
+.layer span{
+    display: block;
+    text-align: center;
+    margin:auto ;
+}
+.layer .color_y{
+    background: #f5cd00;
+}
+.layer .color_r{
+    background: #fd2662;
+}
+.layer .contact{
+    margin-top:0.3rem;
+
+    margin-bottom: 0.2rem;
+}
+.layer .contact ul{
+    width:  6rem ;
+}
+
+.layer .contact ul li{
+    float: left;
+    height: 0.8rem;
+    width: 0.7rem;
+    margin-left: 1rem;
+}
+
+.layer .contact ul li p img{
+    width: 0.54rem;
+    height: 0.54rem;
+}
+
+
+/*开始直播*/
+.kaibo ul li{
+    width:  1.2rem;
+    height: 0.88rem;
+    float: left;
+    color: #999999;
+    margin-top: 0.8rem;
+}
+
+.kaibo ul li img{
+    width:  1.2rem;
+    height: 0.88rem;
+}
+.kaibo .shangchuang{
+    margin-left: 0.5rem;
+}
+.kaibo .start{
+    margin-left: 1.5rem;
+}
+.kaibo .kaipai{
+    margin-left: 1.5rem;
+}
+.kaibo ul li p{
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+
+}

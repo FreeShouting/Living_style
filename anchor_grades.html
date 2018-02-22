@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>主播等级</title>
+  <link rel="stylesheet" href="./css/anchor_grades.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_personal()"></div>
+  <h1>主播等级</h1>
+</div>
+   <div class="center">
+       <div class="center_top">
+         <h3>网络红人</h3>
+       </div>
+       <div class="center_middle">
+          <div class="anchor_img">
+            <img src="./img/personal/list01.jpg" alt="">
+          </div>
+          <div class="huangguan">
+            <img src="./img/logo/huangguan.png" alt="">
+          </div>
+           <div class="dengji">
+             <label>LV10</label>
+           </div>
+         <div class="progress">
+           <span style="width: 30%;"></span>
+           <p class="jindu">16000/50000</p>
+         </div>
+       </div>
+     <div class="shengji"><h2>升级说明</h2></div>
+     <div class="center_bottom">
+          <p>在线、收礼、任务或得经验</p>
+          <p>每日在线获得经验有上限</p>
+          <p>获取礼物经验无上限</p>
+          <p>任务经验有上限</p>
+          <p>签约直播有额外加成</p>
+     </div>
+
+   </div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    /*返回个人中心*/
+    function skip_personal() {
+        window.location.href='personal.html';
+    }
+
+</script>
+</html>

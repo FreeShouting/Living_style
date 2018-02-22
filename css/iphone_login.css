@@ -1,0 +1,92 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,span,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+}
+/*总体的页面布局*/
+.login_from{
+    width: 6.75rem;
+}
+.login_top{
+    width: 6rem;
+    margin:0.4rem 0 0 0.7rem;
+}
+
+.login_top .log_txt{
+    font-size: 0.4rem;
+    text-align: center;
+}
+
+.login_from .login_center{
+    width: 6.75rem;
+    margin:3.5rem 0 0 0.35rem;
+}
+.login_center form input{
+    display: block;
+}
+.login_box{
+    position: relative;
+    border-bottom: solid 1px #eeeeee;
+    width:4.8rem;
+}
+.login_box .get_ma{
+    width: 1.5rem;
+    height: 0.5rem;
+    background: #999999;
+    border-radius: 0.5rem;
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.2rem;
+    font-size: 0.3rem;
+ line-height: 0.5rem;
+}
+form{
+    padding-left: 1.1em;
+
+}
+input[type='text'] {
+   padding: 20px 30px 5px 0;
+    background: none;
+    margin-bottom: 0.2rem;
+    outline: none;
+   border: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size:20px;
+    font-weight: 600;
+}
+
+/*登录*/
+.now_login {
+    margin: 2rem auto auto 2.3rem ;
+   border: 1px solid salmon;
+    width: 2.5rem;
+    height: 0.8rem;
+    background: #fd2662;
+    border-radius: 0.5rem;
+}
+
+.now_login a{
+    display: block;
+    text-align: center;
+    font-size: 0.4rem;
+    line-height: 0.8rem;
+   text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.bottom{
+    width: 5rem;
+margin-top: 2.3rem;
+}
+.bottom span{
+    display:block;
+    width: 4rem;
+    font-size: 0.3rem;
+    color: #dddddd;
+    margin-left: 2rem;
+
+}

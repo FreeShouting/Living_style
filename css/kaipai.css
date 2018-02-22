@@ -1,0 +1,84 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li,
+ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../img/logo/li.jpg");
+}
+.all{
+    height: 100%;
+    width: 100%;
+    position:relative ;
+}
+.all .tp{
+padding: 0.4rem;
+    width: 0.32rem;
+}
+.all .tubiao{
+   /* width: 0.58rem;
+    height:0.58rem;*/
+    background: url("../img/tuijie_img/icon.png") no-repeat 69.38% 18.129%;
+    background-size: 800px 800px;
+    width: 26px;
+    height: 31px;
+    position: absolute;
+    right: 0.4rem;
+    top: 0.4rem;
+
+}
+.all .tubiao img{
+    width: 0.58rem;
+    height:0.58rem;
+}
+
+.include{
+    margin-top: 1.7rem;
+}
+
+.include .lvjing{
+    background: url("../img/tuijie_img/icon.png") no-repeat 80.143% 18.365%;
+    background-size: 800px 800px;
+    width: 32px;
+    height: 30px;
+    margin-left: 6.4rem;
+}
+
+.include .lvjing img{
+    height: 0.64rem;
+    width: 0.64rem;
+}
+
+.include .meiyan{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 91.197% 18.782%;
+    background-size: 800px 800px;
+    width: 28px;
+    height: 28px;
+    margin-left: 6.4rem;
+    margin-top: 0.6rem;
+}
+
+.include .meiyan img{
+    height: 0.64rem;
+    width: 0.64rem;
+}
+
+.big_button{
+    width: 2.3rem;
+    height: 2.3rem;
+    margin: 4rem auto 0 auto;
+    background: #fa3970;
+    border-radius: 50%;
+    position: relative;
+}
+
+.small_button{
+    width: 1.7rem;
+    height: 1.7rem;
+   background: #f7215e;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.3rem;
+    top: 0.3rem;
+}

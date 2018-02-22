@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>分享页面</title>
+  <link rel="stylesheet" href="./css/living.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+<!--总体的直播页面-->
+    <div class="living_bg">
+       <div class="liv_top">
+           <div class="touxiang">
+                <div class="tou_img">
+                   <img src="./img/living/mina.png" alt="">
+                </div>
+                <div class="guanzhu">
+                    <ul>
+                        <li class="name">mina</li>
+                        <li class="bianhao">96096</li>
+                    </ul>
+                </div>
+               <div class="img-info">
+                   <img src="./img/living/yuan.png" alt="">
+               </div>
+                   <div class="one">
+                      <label class="people">
+                       9966人
+                      </label>
+               </div>
+                   <div class="two">
+                     <label class="jinbi">
+                     <img src="./img/living/jinbi.png" alt="">985459</label>
+                   </div>
+       </div>
+       </div>
+        <!--直播页面下面的对话框-->
+    </div>
+    <div class="liv_bottom">
+    <ul>
+        <li><img src="./img/living/liaotian.png" alt=""></li>
+        <li class="sixin"><img src="./img/living/sixin.png" alt=""></li>
+        <li class="liwu"><img src="./img/living/liwu.png" alt=""></li>
+        <li class="luxiang"><img src="./img/living/luxiang.png" alt=""></li>
+        <li  class="fenxiang"><img src="./img/living/fenxiang.png" alt=""></li>
+        <li class="guanbi"><img src="./img/living/gunagbi.png" alt=""></li>
+    </ul>
+</div>
+    <!--结束-->
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+<script>
+    $(function () {
+        $(".sixin").click(function () {
+            layer.open({
+                type:1,
+                closeBtn:0,
+                title: ['mina','margin:auto;padding:0;text-align:center;font-size:18px;font-weight:600;'],
+                offset: 'b',
+                shadeClose:true,
+                anim: 2,
+                shade: 0.01,
+              area: ['375px', '300px'],
+                content:'<div class="xiaoxi">' +
+                    '<span class="xiao_txt">还没有消息</span>'+
+                    '<input type="text" name="#" value="">'+
+                '</div>'
+            })
+        });
+        /*送礼物的页面*/
+        $(".liwu").click(function () {
+             layer.open({
+                 type:1,
+                 closeBtn:0,
+                 title:['礼物','margin:auto;padding:0;text-align:center;font-size:18px;' +
+                 'font-weight:600;border-bottom: 3px solid #eee;'],
+                 offset: 'b',
+                 shadeClose:true,
+                 anim: 2,
+                 shade: 0.01,
+                 area: ['375px', '300px'],
+                content:'<div class="liwu_box">' +
+                    '<div class="box1">' +
+                       '<ul>' +
+                      '<li><img src="./img/living/liwu01.png" alt=""><p>木质宝箱</p></li>' +
+                       '<li><img src="./img/living/liwu02.png" alt=""><p>黄金宝箱</p></li>' +
+                        '<li><img src="./img/living/liwu03.png" alt=""><p>白金宝箱</p></li></ul>'+
+                       '</div>'+
+                   '<div class="box2">' +
+                    '<ul>' +
+                    '<li><img src="./img/living/liwu04.png" alt=""><p>白银宝箱</p></li>' +
+                    '<li><img src="./img/living/liwu05.png" alt=""><p>黄金大宝箱</p></li>' +
+                    '<li><img src="./img/living/liwu06.png" alt=""><p>白金大宝箱</p></li></ul>'+
+                    '</div>'+
+                    '<button>送出</button>'+
+                '</div>'
+             })
+        });
+        /*分享视频的弹框*/
+        $(".fenxiang").click(function () {
+            layer.open({
+                type:1,
+                closeBtn:0,
+                title:['分享到','margin:auto;padding:0;text-align:center;font-size:18px;' +
+                'font-weight:600;'],
+                offset: 'b',
+                shadeClose:true,
+                anim: 2,
+                shade: 0.01,
+                area: ['375px', '300px'],
+                content:'<div class="fenxiang">' +
+                       '<ul>' +
+                '<li><img src="./img/living/QQ.png" alt=""><p>QQ</p></li>' +
+                '<li><img src="./img/living/weixin.png" alt=""><p>微信</p></li>' +
+                '<li><img src="./img/living/weibo.png" alt=""><p>微博</p></li>' +
+                '<li><img src="./img/living/kongjian.png" alt=""><p>空间</p></li>' +
+                '<li><img src="./img/living/pengyouquan.png" alt=""><p class="p_txt">朋友圈</p></li>' +
+                '</ul>'+
+                '</div>'
+            })
+        })
+
+
+ /*结束*/
+
+    })
+</script>
+</html>

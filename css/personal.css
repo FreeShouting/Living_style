@@ -1,0 +1,799 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*底部的部分*/
+.footer{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    background-color: white;
+}
+
+.footer .footer_list ul{
+    list-style: none;
+}
+.footer .footer_list ul li {
+    font-size: 0.25rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.1rem;
+    padding: 0.4rem 0.1rem 0 0.3rem;
+
+}
+
+.footer .footer_list li a{
+    line-height: 0.6rem;
+    text-decoration: none;
+}
+.footer .living{
+    background: url('../img/tuijie_img/icon.png') no-repeat 3.5% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .living a{
+    color: #999999;
+}
+.footer .near a{
+    color:#999999;
+}
+.footer .movie a{
+    color: #999999;
+}
+.footer .my a{
+    color:black;
+}
+
+.footer .near{
+    background: url('../img/tuijie_img/icon.png') no-repeat 12.619% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .xing{
+    background: url('../img/tuijie_img/icon.png')  no-repeat 21.099% 14.3%;
+    background-size: 800px 800px;
+    width: 33px;
+    height: 32px;
+}
+.footer .movie{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 29.415% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+
+.footer .my{
+    background: url("../img/tuijie_img/icon.png") no-repeat 38.998% 5.7%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+/*底下的部分结束*/
+
+/*头部*/
+.head{
+    width: 100%;
+}
+
+.head .head-img{
+    width: 0.68rem;
+    height: 0.52rem;
+    margin-top: 0.2rem;
+    margin-left: 6.2rem;
+}
+
+.head .head-img img{
+    width: 0.68rem;
+    height: 0.52rem;
+    display: block;
+}
+
+.head .introduce{
+    width: 100%;
+    height:2rem;
+    border-bottom: solid 1px #eeeeee;
+    margin-top: 0.2rem;
+}
+
+.head .introduce .touxiang{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0.2rem 0 0 0.2rem;
+    float: left;
+}
+
+.head .introduce .touxiang img{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+  border-radius: 50%;
+}
+
+.head .introduce .qianming{
+    width: 70%;
+    float: left;
+    margin: 0.2rem 0 0 0.1rem;
+    position: relative;
+}
+
+.introduce .qianming ul li{
+    font-size: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.introduce .qianming .sex{
+    width: 0.16rem;
+    height: 0.3rem;
+}
+.introduce .qianming .sex img{
+    width: 0.16rem;
+    height: 0.3rem;
+}
+
+.introduce .qianming .chenghao{
+    font-size: 0.4rem;
+}
+
+.introduce .qianming .jieshao{
+    color: #999999;
+    font-size: 0.3rem;
+}
+
+.introduce .qianming .tu{
+    background: url("../img/tuijie_img/icon.png")no-repeat 3.141% 27.094%;
+    background-size: 800px 800px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 1.8rem;
+    top:0.5rem
+}
+
+.introduce .qianming .ziliao{
+    width: 1.2rem;
+    height: 0.4rem;
+    background-color: black;
+    font-size: 0.3rem;
+    color: #fff;
+    border-radius: 0.1rem;
+    position: absolute;
+    right: 0.2rem;
+    top:0.7rem;
+}
+
+/*目录的部分*/
+.dianzan{
+    width: 100%;
+    height: 0.7rem;
+    border-bottom: 10px solid #eeeeee;
+}
+.dianzan ul li{
+    float: left;
+    font-size: 0.3rem;
+    color: #999999;
+    margin: 0.1rem 0 0 0.3rem;
+}
+.dianzan ul li a {
+    text-decoration: none;
+    font-size: 0.35rem;
+    color:#343034;
+    font-weight: 600;
+}
+
+.dianzan .p_1{
+    margin-left: 1.3rem;
+}
+.dianzan .p_2{
+    margin-left: 1.3rem;
+}
+
+.menu{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.menu ul li {
+    font-size: 0.3rem;
+    float: left;
+    text-decoration: none;
+    margin-top: 0.2rem;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+
+.menu .don{
+    margin-left: 0.2rem;
+    margin-right: 0.9rem;
+    font-size: 0.4rem;
+}
+.menu .down a{
+    color: black;
+    text-decoration: underline;
+}
+.menu .up a{
+    color: #999999;
+}
+.menu .zhongxin a{
+     color: #999999;
+}
+
+.menu .sixin{
+    margin-left:1.4rem;
+    font-size: 0.4rem;
+}
+
+.menu .zhongxin{
+    margin-left: 1.6rem;
+    color: black;
+    font-size: 0.4rem;
+}
+
+/*下面信息切换的部分*/
+.person_infor{
+    width: 100%;
+    height: 100%;
+    background-color:#eeeeee;
+    position: relative;
+}
+/*
+.informa_one{
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.informa_one .msg{
+    width:3.9rem;
+    font-size: 0.4rem;
+    color: #999999;
+margin: 3.5rem auto;
+}
+/*私信的部分*/
+.box_sixin{
+ height: 100%;
+    width: 100%;
+}
+
+/*私信上面的部分*/
+.box_top{
+    width: 100%;
+    background-color: #fff;
+}
+.box_top .box1{
+    width: 100%;
+    height: 1.3rem;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.box_top .box1 .img_one{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 22.157% 27.19%;
+    background-size: 800px 800px;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.3rem;
+}
+.box_top .box1 .friends{
+    font-size: 0.4rem;
+    color: black;
+    width: 2rem;
+    height: 1rem;
+    float: left;
+    margin-left: 0.6rem;
+    margin-top: 0.4rem;
+}
+
+.box_top .box1 .btn{
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+    background: url("../img/tuijie_img/icon.png") no-repeat 55.233% 27.481%;
+    background-size: 800px 800px;
+    width: 7px;
+    height: 14px;
+}
+
+/*客服精灵的部分*/
+.box_top .box2{
+    width: 100%;
+    height: 1.3rem;
+    border-bottom: 8px solid #eeeeee;
+    position: relative;
+}
+.box_top .box2 .img_one1{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 13.333% 27.19%;
+    background-size: 800px 800px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0.3rem;
+    left: 0.2rem;
+}
+.box_top .box2 .friends1{
+    font-size: 0.4rem;
+    color: black;
+    width: 2rem;
+    height: 1rem;
+    position: absolute;
+    top: 0.4rem;
+    left: 1.5rem;
+}
+
+.box_top .box2 .btn1{
+    position: absolute;
+    right: 0.2rem;
+    top: 0.5rem;
+    background: url("../img/tuijie_img/icon.png") no-repeat 55.233% 27.481%;
+    background-size: 800px 800px;
+    width: 7px;
+    height: 14px;
+}
+
+/*最近消息*/
+.box_bottom{
+    width: 100%;
+    background-color: #fff;
+
+}
+.box_bottom .title{
+    font-size: 0.4rem;
+    margin-top: 0.2rem;
+    font-family: '宋体';
+    border-bottom: 1px solid #eeeeee;
+    margin-left: 0.2rem;
+    height: 0.6rem;
+
+}
+
+.list_msg{
+    width: 100%;
+    height: 1.55rem;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 0.2rem;
+}
+
+.list_msg .one{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.1rem;
+    float: left;
+}
+.list_msg .one img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    display: block;
+}
+
+.list_msg .two{
+    list-style-type: none;
+    margin-left: 1.6rem;
+    margin-top: 0.2rem;
+}
+.list_msg .two .msg_name{
+    height: 0.5rem;
+    position: relative;
+    margin-bottom: 0.1rem;
+
+}
+.list_msg .two .msg_name span{
+    font-size: 0.3rem;
+    display: inline-block;
+    font-family: '宋体';
+
+}
+.list_msg .two .msg_name .name_tag{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+}
+.list_msg .two .msg_name .week{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+
+
+.list_msg .two .msg_info{
+    height: 0.5rem;
+    position: relative;
+    margin-top: 0.2rem;
+}
+.list_msg .two .msg_info span{
+    font-size: 0.3rem;
+    display: inline-block;
+    font-family: '宋体';
+    color: #999999;
+}
+.list_msg .two .msg_info .info_tag{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+}
+.list_msg .two .msg_info .time{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+
+
+.person_user{
+    width: 100%;
+    height: 100%;
+}
+.Personal_Center{
+
+   background-color: #fff;
+    /*border: 1px solid darkorange;*/
+}
+
+.Personal_Center .center_one1{
+    width: 100%;
+    height: 0.8rem;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.Personal_Center .center_one{
+    width: 100%;
+    height: 0.6rem;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+.center_one1 .foot{
+    background: url("../img/tuijie_img/icon.png") no-repeat 59.181% 19.43%;
+    background-size: 800px 800px;
+    width: 19px;
+    height: 28px;
+    float: left;
+    margin: 0.1rem 0 0 0.3rem;
+}
+.center_one1 .word{
+    font-size: 0.3rem;
+    color:#fa3a70;
+    width: 1.5rem;
+    height: 0.4rem;
+    margin: 0.2rem 0 0 0.3rem;
+    float: left;
+}
+.center_one1 .person_btn{
+    background: url("../img/tuijie_img/icon.png") no-repeat 55.233% 27.481%;
+    background-size: 800px 800px;
+    width: 7px;
+    height: 14px;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.3rem;
+}
+.center_one .person_btn{
+    background: url("../img/tuijie_img/icon.png") no-repeat 55.233% 27.481%;
+    background-size: 800px 800px;
+    width: 7px;
+    height: 14px;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.1rem;
+}
+
+/*第二个盒子里面的内容*/
+.center_one .foot1{
+    background: url("../img/tuijie_img/icon.png") no-repeat 30.691% 19.949%;
+    background-size: 800px 800px;
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin: 0 0 0 0.4rem;
+}
+
+.center_one .person_count{
+    font-size: 0.3rem;
+    color: #ff890d;
+    width: 0.5rem;
+    margin-left: 5rem;
+    right: 0.6rem;
+    top: 0;
+    position: absolute;
+}
+.center_one .word1{
+    font-size: 0.3rem;
+    color:#ff890d;
+    width: 1.5rem;
+    margin: 0.3rem 0 0 0.9rem;
+    height: 0.4rem;
+}
+/*第三个盒子里面的CSS*/
+.center_one .foot2{
+    background: url("../img/tuijie_img/icon.png") no-repeat 40.102% 19.33%;
+    background-size: 800px 800px;
+    width: 17px;
+    height: 24px;
+    float: left;
+    margin: 0 0 0 0.4rem;
+}
+
+.center_one .person_count2{
+    font-size: 0.3rem;
+    color: #4ca5ff;
+    width: 0.5rem;
+    margin-left: 5rem;
+    right: 0.6rem;
+    top: 0;
+    position: absolute;
+}
+.center_one .word2{
+    font-size: 0.3rem;
+    color:#4ca5ff;
+    width: 1.5rem;
+    margin: 0.3rem 0 0 0.9rem;
+    height: 0.4rem;
+}
+
+.gap{
+    width: 100%;
+    height: 30px;
+    background: #eeeeee;
+}
+
+/*第四个盒子*/
+.center_one .foot3{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 14.176% 19.33%;
+    background-size: 800px 800px;
+    width: 17px;
+    height: 24px;
+    float: left;
+    margin: 0 0 0 0.4rem;
+}
+
+.center_one .person_count3{
+    font-size: 0.3rem;
+    color: #ff890d;
+    width: 0.6rem;
+    margin-left: 5rem;
+    right: 0.6rem;
+    top: 0;
+    position: absolute;
+}
+.center_one .word3{
+    font-size: 0.3rem;
+    color:#ff890d;
+    width: 1.5rem;
+    margin: 0.3rem 0 0 0.9rem;
+    height: 0.4rem;
+}
+/*第五个盒子*/
+.center_one .foot4{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 4.278% 19.382%;
+    background-size: 800px 800px;
+    width: 17px;
+    height: 24px;
+    float: left;
+    margin: 0 0 0 0.4rem;
+}
+
+.center_one .person_count4{
+    font-size: 0.3rem;
+    color: #999999;
+    width: 0.9rem;
+    margin-left: 5rem;
+    right: 0.6rem;
+    top: 0;
+    position: absolute;
+}
+.center_one .word4{
+    font-size: 0.3rem;
+    color:#fa3a70;
+    width: 1.5rem;
+    margin: 0.3rem 0 0 0.9rem;
+    height: 0.4rem;
+}
+
+/*第六个盒子*/
+.center_one .foot5{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 22.684% 19.589%;
+    background-size: 800px 800px;
+    width: 18px;
+    height: 22px;
+    float: left;
+    margin: 0 0 0 0.4rem;
+}
+
+.center_one .person_count5{
+    font-size: 0.3rem;
+    color: #ff890d;
+    width: 0.9rem;
+    margin-left: 5rem;
+    right: 0.6rem;
+    top: 0;
+    position: absolute;
+}
+.center_one .word5{
+    font-size: 0.3rem;
+    color:#ff890d;
+    width: 1.5rem;
+    margin: 0.3rem 0 0 0.9rem;
+    height: 0.4rem;
+}
+/*第七个盒子*/
+.center_one .foot6{
+    background: url("../img/tuijie_img/icon.png")  no-repeat 50.607% 19.317%;
+    background-size: 800px 800px;
+    width: 18px;
+    height: 24px;
+    float: left;
+    margin: 0 0 0 0.4rem;
+}
+
+.center_one .person_count6{
+    font-size: 0.3rem;
+    color: #4ca5ff;
+    width: 0.9rem;
+    margin-left: 5rem;
+    right: 0.6rem;
+    top: 0;
+    position: absolute;
+}
+.center_one .word6{
+    font-size: 0.3rem;
+    color:#4ca5ff;
+    width: 1.5rem;
+    margin: 0.3rem 0 0 0.9rem;
+    height: 0.4rem;
+}
+
+/*动态里面有内容的盒子*/
+.information_box{
+    width: 100%;
+  background: #fff;
+}
+
+.information_box .box_one{
+    height: 1.7rem;
+    width: 100%;
+}
+
+.box_one .left{
+    width: 1rem;
+    height: 1rem;
+    margin: 0.2rem 0 0 0.2rem;
+    float: left;
+
+}
+
+.box_one .left img{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+}
+
+.box_one .right{
+    width:80%;
+    height: 1.5rem;
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.box_one .right ul li{
+    font-size: 0.3rem;
+}
+
+.box_one .right .tag1{
+    font-size: 0.4rem;
+}
+
+.box_one .right .free{
+    font-size: 0.2rem;
+    color: #999999;
+    border: 1px solid #999999;
+    height: 0.2rem;
+    width: 0.2rem;
+}
+
+.box_one .right .hua{
+    margin-top: 0.4rem;
+    font-size: 0.2rem;
+}
+.box_one .right label{
+    color: #999999;
+    margin-left: 2rem;
+}
+
+.information_box .box_two{
+    width: 6.5rem;
+    height: 3.56rem;
+    margin-top: 0.2rem;
+    margin-left: 0.5rem;
+}
+.box_two img{
+    width: 6.5rem;
+    height: 3.56rem;
+    display: block;
+}
+
+.fenxiang{
+    width: 100%;
+    height: 0.7rem;
+    margin-top: 0.6rem;
+}
+.fenxiang .bg{
+    background:url("../img/tuijie_img/icon.png") no-repeat 80.688% 27.817%;
+    background-size: 800px 800px;
+    width: 16px;
+    height: 15px;
+   margin-right: 0.1rem;
+    margin-top: 0.05rem;
+}
+.fenxiang .bg1{
+    background:url("../img/tuijie_img/icon.png")  no-repeat 88.804% 27.817%;
+    background-size: 800px 800px;
+    width: 19px;
+    height: 15px;
+    margin-right: 0.1rem;
+    margin-top: 0.05rem;
+}
+
+.fenxiang ul li{
+    font-size: 0.3rem;
+    float: right;
+}
+
+.fenxiang .shuzi{
+    font-size: 0.3rem;
+    color: #999999;
+    margin-right:0.4rem;
+}
+
+.fenxiang .shuzi1{
+    font-size: 0.3rem;
+    color: #999999;
+    margin-right: 0.4rem;
+}
+
+.fenxiang .bg3{
+    background: url("../img/tuijie_img/icon.png") no-repeat 96.733% 27.771%;
+    background-size: 800px 800px;
+    width: 20px;
+    height: 15px;
+    margin-right: 0.7rem;
+    margin-top: 0.05rem;
+}
+/*开始直播*/
+.kaibo ul li{
+    width:  1.2rem;
+    height: 0.88rem;
+    float: left;
+    color: #999999;
+    margin-top: 0.8rem;
+}
+
+.kaibo ul li img{
+    width:  1.2rem;
+    height: 0.88rem;
+}
+.kaibo .shangchuang{
+    margin-left: 0.5rem;
+}
+.kaibo .start{
+    margin-left: 1.5rem;
+}
+.kaibo .kaipai{
+    margin-left: 1.5rem;
+}
+.kaibo ul li p{
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+
+}
+

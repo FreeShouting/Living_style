@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>用户设置</title>
+  <link rel="stylesheet" href="./css/user_setting.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_personal()"></div>
+  <h1>用户设置</h1>
+</div>
+<!--用户设置的列表-->
+<div class="setting_list">
+  <ul>
+    <li class="yue" onclick="skip_privacySetting()">隐私设置
+      <div class="btn"></div>
+    </li>
+    <li class="shouyi" onclick="skip_interest()">兴趣推送
+      <div class="btn"></div>
+    </li>
+    <li class="xiaofei">消费展示
+      <div class="base qie_btn"></div>
+    </li>
+    <li class="benyue">记录弹幕
+      <div class="base qie_btn"></div>
+    </li>
+    <li class="benyue">首页推荐
+      <div class="base guan_btn"></div>
+    </li>
+    <li class="benyue">开播提醒
+      <div class="base qie_btn"></div>
+    </li>
+    <li class="benyue">后台播放
+      <div class="base guan_btn"></div>
+    </li>
+    <li class="benyue">清除缓存
+      <div class="base qie_btn"></div>
+    </li>
+  </ul>
+</div>
+ <div class="setting_list1">
+   <ul>
+     <li class="yue">关于我们
+       <div class="btn"></div>
+     </li>
+     <li class="shouyi">为我们评分
+       <div class="btn"></div>
+     </li>
+   </ul>
+ </div>
+  <div class="setting_list2">
+    <ul>
+    <li class="yue">违规查询
+      <div class="btn"></div>
+      <span>举报以及违规在这里看</span>
+    </li>
+    </ul>
+  </div>
+    <div class="setting_list3">
+      <ul>
+        <li class="yue">
+           <p>退出登录</p>
+        </li>
+      </ul>
+    </div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+  /*切换开关按钮*/
+  $(function () {
+      $('.base').click(function () {
+          if($(this).hasClass("qie_btn")){
+              $(this).removeClass("qie_btn");
+              $(this).addClass("guan_btn");
+          }else{
+              $(this).removeClass("guan_btn");
+              $(this).addClass("qie_btn");
+          }
+
+
+      });
+  });
+    /*返回个人中心*/
+    function skip_personal() {
+        window.location.href='personal.html';
+    }
+    /*跳转到隐私设置*/
+    function skip_privacySetting() {
+        window.location.href='privacy_setting.html';
+    }
+
+    /*挑战到兴趣推送的页面*/
+    function skip_interest(){
+        window.location.href='interest_push.html'
+    }
+</script>
+</html>

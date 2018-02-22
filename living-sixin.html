@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>直播私信页面</title>
+  <link rel="stylesheet" href="./css/living.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+<!--总体的直播页面-->
+    <div class="living_bg">
+       <div class="liv_top">
+           <div class="touxiang">
+                <div class="tou_img">
+                   <img src="./img/living/mina.png" alt="">
+                </div>
+                <div class="guanzhu">
+                    <ul>
+                        <li class="name">mina</li>
+                        <li class="bianhao">96096</li>
+                    </ul>
+                </div>
+               <div class="img-info">
+                   <img src="./img/living/yuan.png" alt="">
+               </div>
+                   <div class="one">
+                      <label class="people">
+                       9966人
+                      </label>
+               </div>
+                   <div class="two">
+                     <label class="jinbi">
+                     <img src="./img/living/jinbi.png" alt="">985459</label>
+                   </div>
+       </div>
+       </div>
+        <!--直播页面下面的对话框-->
+        <div class="liv_bottom">
+            <ul>
+                <li><img src="./img/living/liaotian.png" alt=""></li>
+                <li class="sixin"><img src="./img/living/sixin.png" alt=""></li>
+                <li class="liwu"><img src="./img/living/liwu.png" alt=""></li>
+                <li class="luxiang"><img src="./img/living/luxiang.png" alt=""></li>
+                <li  class="fenxiang"><img src="./img/living/fenxiang.png" alt=""></li>
+                <li class="guanbi"><img src="./img/living/gunagbi.png" alt=""></li>
+            </ul>
+        </div>
+    </div>
+   
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+<script>
+    $(function () {
+        $(".sixin").click(function () {
+            layer.open({
+                type:1,
+                closeBtn:0,
+                title: ['私信','margin:auto;padding:0 0 0 10px;font-size:18px;' +
+                'font-weight:600;background-color:#fff;border-radius:15px 15px 0 0'],
+                offset: 'b',
+                shadeClose:true,
+                anim: 2,
+                shade: 0.01,
+              area: ['375px', '300px'],
+                content:'<div class="chuangkou">' +
+                      '<div class="open_info">' +
+                        '<div class="open_img"><img src="./img/living/mina.png" alt=""></div>'+
+                          '<div class="open_tag">' +
+                             '<ul>' +
+                             '<li class="tag_1">mina星秀掌门人</li>' +
+                             '<li class="tag_2">hello,我是主播mina,快来和我聊天吧</li>' +
+                             '</ul>' +
+                            '</div>'+
+                              '<button>开聊</button>'+
+                         '</div>'+
+                      '<div class="open_info">' +
+                              '<div class="open_img"><img src="./img/living/leiren.png" alt=""></div>'+
+                                '<div class="open_tag">'+
+                                  '<ul>' +
+                                   '<li class="tag_1">mina星秀掌门人</li>' +
+                                   '<li class="tag_2">hello,我是主播mina,快来和我聊天吧</li>' +
+                                   '</ul>' +
+                                    '</div>'+
+                                  '<button>加入</button>'+
+                             '</div>'+
+                      '<div class="open_info">' +
+                       '<div class="open_img"><img src="./img/living/kongtian.png" alt=""></div>'+
+                       '<div class="open_tag">'+
+                        '<ul>' +
+                        '<li class="tag_1">mina星秀掌门人</li>' +
+                        '<li class="tag_2">hello,我是主播mina,快来和我聊天吧</li>' +
+                     '</ul>' +
+                     '</div>'+
+                    '<button>加入</button>'+
+                '</div>'+
+                '</div>'+
+                '</div>'
+            })
+        })
+    })
+</script>
+</html>

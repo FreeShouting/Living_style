@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>附近的人</title>
+  <link rel="stylesheet" href="./css/near.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+  <link rel="stylesheet" href="./css/layui.css">
+  <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+  <!--导航条的部分-->
+  <div class="nav_all">
+    <div class="nav_list">
+      <ul class="nav_list_one">
+        <li class="down common" value="1">附近的人
+        </li>
+        <li class="up common" value="2">附近直播</li>
+         <li class="near_img"><img src="./img/search/near_seach.png" alt=""></li>
+      </ul>
+    </div>
+  </div>
+  <!--隐藏的部分-->
+  <div class="fenlei">
+    <span class="option1">只看男</span>
+    <span class="option2">看所有</span>
+    <span class="option3">只看女</span>
+  </div>
+<!--导航条结束-->
+  <!--底部的部分-->
+  <div class="footer">
+    <div class="footer_list">
+      <ul>
+        <li class="living"><a href="index.html">直播</a></li>
+        <li class="near"><a href="near_peopel.html">附近</a></li>
+        <li class="xing" onclick="xing_movie()"><a href="#"></a></li>
+        <li class="movie"><a href="mymovie.html">视频</a></li>
+        <li class="my"><a href="personal.html">我的</a></li>
+      </ul>
+    </div>
+  </div>
+  <!--底部结束-->
+<!--中间附近的人-->
+  <div class="swiper-container near_all">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide near_info">
+          <div class="div1">
+            <div class="near-img">
+              <img src="./img/near/near01.png" alt="">
+            </div>
+            <div class="near-txt">
+              <ul>
+                <li class="li-name">一只小猫
+                  <span class="dis">0.2Km</span>
+                </li>
+                <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+                <li class="li-js">我只有一个优点,就是没有缺点
+                  <span class="time">1小时前</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        <div class="div1">
+          <div class="near-img">
+            <img src="./img/near/near02.png" alt="">
+          </div>
+          <div class="near-txt">
+            <ul>
+              <li class="li-name">OOoo<span class="dis">0.2Km</span></li>
+              <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+              <li class="li-js">还未留下任何足迹
+                <span class="time">1小时前</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="near-img">
+            <img src="./img/near/near03.png" alt="">
+          </div>
+          <div class="near-txt">
+            <ul>
+              <li class="li-name">Dearing<span class="dis">0.2Km</span></li>
+              <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+              <li class="li-js">还未留下任何足迹
+                <span class="time">1小时前</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="near-img">
+            <img src="./img/near/near04.png" alt="">
+          </div>
+          <div class="near-txt">
+            <ul>
+              <li class="li-name">Dearing<span class="dis">0.2Km</span></li>
+              <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+              <li class="li-js">还未留下任何足迹
+                <span class="time">1小时前</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="near-img">
+            <img src="./img/near/near05.png" alt="">
+          </div>
+          <div class="near-txt">
+            <ul>
+              <li class="li-name">冷夏<span class="dis">0.2Km</span></li>
+              <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+              <li class="li-js">还未留下任何足迹
+                <span class="time">1小时前</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="near-img">
+            <img src="./img/near/near06.png" alt="">
+          </div>
+          <div class="near-txt">
+            <ul>
+              <li class="li-name">冷夏<span class="dis">0.2Km</span></li>
+              <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+              <li class="li-js">还未留下任何足迹
+                <span class="time">1小时前</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="div1">
+          <div class="near-img">
+            <img src="./img/near/near06.png" alt="">
+          </div>
+          <div class="near-txt">
+            <ul>
+              <li class="li-name">冷夏<span class="dis">0.2Km</span></li>
+              <li class="li-img"><img src="./img/search/nv.png" alt=""></li>
+              <li class="li-js">还未留下任何足迹
+                <span class="time">1小时前</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+      <div class="swiper-slide near_info">
+        <div class="list_img">
+          <div class="list_img_left">
+            <div class="img_1">
+              <img src="img/ASMR/asmr02.png" alt="">
+              <span class="zhibo-ing">直播中</span>
+              <span class="name">小阮、</span>
+              <span class="count">21345</span>
+            </div>
+            <div class="img_1">
+              <img src="img/ASMR/asmr03.png" alt="">
+              <span class="zhibo-ing">直播中</span>
+              <span class="name">木子</span>
+              <span class="count">21345</span>
+            </div>
+            <div class="img_1">
+              <img src="img/tuijie_img/zhibo01.png" alt="">
+              <span class="zhibo-ing">直播中</span>
+              <span class="name">喵喵、</span>
+              <span class="count">5944</span>
+            </div>
+          </div>
+          <div class="list_img_right">
+            <div class="img_1">
+              <img src="img/tuijie_img/zhibo03.png" alt="">
+              <span class="zhibo-ing">直播中</span>
+              <span class="name">小阮、</span>
+              <span class="count">65456</span>
+            </div>
+            <div class="img_1">
+              <img src="img/tuijie_img/zhibo06.png" alt="">
+              <span class="zhibo-ing">直播中</span>
+              <span class="name">小音</span>
+              <span class="count">21345</span>
+            </div>
+            <div class="img_1">
+              <img src="img/tuijie_img/zhibo.png" alt="">
+              <span class="zhibo-ing">直播中</span>
+              <span class="name">羽神、</span>
+              <span class="count">65456</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--附近结束-->
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+<script>
+  var myswiper=new Swiper(".swiper-container");//初始化swiper
+  $(function () {
+      $(".near_img").click(function () {
+          if($(".fenlei").css("display")=="none"){
+              $(".fenlei").show();
+          }else{
+              $(".fenlei").hide();
+          }
+      })
+  });
+  /*点击切换附近的人/附近的视频*/
+  var menuList =$(".nav_list_one").find("li");
+  menuList.each(function () {
+      $(this).click(function() {
+          menuList.each(function () {
+              $(this).removeClass("down");
+              $(this).addClass("up");
+          });
+          $( menuList[$(this).attr("value")-1]).removeClass("up").addClass("down");
+          myswiper.slideTo($(this).attr("value")-1, 500, false);
+      })
+  });
+
+
+  /*点击上传到星 视频*/
+  function xing_movie() {
+      window.location.href='xing_living.html';
+
+  }
+
+</script>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>朋友的信息</title>
+  <link rel="stylesheet" href="./css/friends_message.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+    <link rel="stylesheet" href="./css/layui.css">
+    <link rel="stylesheet" href="./css/layer.css">
+</head>
+<body>
+<!--&lt;!&ndash;底部导航条&ndash;&gt;
+<div class="footer">
+  <div class="footer_list">
+    <ul>
+      <li class="living"><a href="index.html">直播</a></li>
+      <li class="near"><a href="near_peopel.html">附近</a></li>
+      <li class="xing" onclick="xing_movie()"><a href="#"></a></li>
+      <li class="movie"><a href="mymovie.html">视频</a></li>
+      <li class="my"><a href="personal.html">我的</a></li>
+    </ul>
+  </div>
+</div>-->
+<!--导航条结束-->
+<!--头部-->
+     <div class="head">
+
+        <div class="head-img">
+          <img src="./img/personal/enjoy.png" alt="">
+            <div class="small" onclick="skip_myfeiends()"></div>
+        </div>
+       <!--头部的第二部分-->
+     <div class="introduce">
+        <div class="touxiang">
+          <img src="./img/personal/black_tou.png" alt="">
+        </div>
+       <div class="qianming">
+         <ul>
+           <li class="chenghao">哭完就没了眼泪</li>
+           <li class="sex"><img src="./img/personal/nan.png" alt=""></li>
+           <li class="jieshao">签名是什么东西</li>
+         </ul>
+         <div class="tu"></div>
+         <span class="ziliao"></span>
+       </div>
+     </div>
+       <!--头部的第三部分-->
+       <div class="dianzan">
+          <ul>
+            <li class="p_0"><a href="#">100</a>关注</li>
+            <li class="p_1"><a href="#">2520</a>粉丝</li>
+            <li class="p_2"><a href="#">1.5w</a>点赞</li>
+          </ul>
+       </div>
+       <!--头部的第四部分-->
+          <div class="menu">
+            <ul>
+              <li class="don"><a href="#">他的动态</a></li>
+              <li class="sixin"><a href="#">他的资料</a></li>
+            </ul>
+          </div>
+     </div>
+         <!--头部份结束-->
+   <!--下面切换的部分-->
+  <div class="swiper-container person_infor">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide informa_one">
+            <!--朋友的动态部分-->
+            <div class="information_box">
+                <div class="box_one">
+                    <div class="left">
+                        <img src="./img/personal/list01.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li class="tag1">网络红人&nbsp;&nbsp;&nbsp;&nbsp;<span class="free">自由职业</span></li>
+                            <li class="hua">复仇者联盟，奥创纪元
+                                <label>1小时前</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box_two">
+                    <img src="./img/personal/dongtai.png" alt="">
+                </div>
+                <div class="fenxiang">
+                    <ul>
+                        <li class="bg3"></li>
+                        <li class="shuzi">16</li>
+                        <li class="bg1"></li>
+                        <li class="shuzi1">106</li>
+                        <li class="bg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="information_box">
+                <div class="box_one">
+                    <div class="left">
+                        <img src="./img/personal/list01.jpg" alt="">
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li class="tag1">网络红人&nbsp;&nbsp;&nbsp;&nbsp;<span class="free">自由职业</span></li>
+                            <li class="hua">复仇者联盟，奥创纪元
+                                <label>1小时前</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box_two">
+                    <img src="./img/personal/dongtai.png" alt="">
+                </div>
+                <div class="fenxiang">
+                    <ul>
+                        <li class="bg3"></li>
+                        <li class="shuzi">16</li>
+                        <li class="bg1"></li>
+                        <li class="shuzi1">106</li>
+                        <li class="bg"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--朋友动态的部分结束-->
+
+        <!--朋友资料的部分-->
+        <div class="swiper-slide informa_one">
+            <div class="wallet_list">
+                <ul>
+                    <li class="shouyi">昵称 <span>网络红人</span>
+                    </li>
+                    <li class="xiaofei">性别<span>男</span>
+                    </li>
+                    <li class="benyue">生日<span>1990-10-14</span>
+                    </li>
+                    <li class="benyue">星座<span>天秤座</span>
+                    </li>
+                    <li class="address">地址<span>广西 南宁</span>
+                    </li>
+                    <li class="qianming">签名<span>签名是什么东西</span>
+                    </li>
+                    <li class="qianming">账号等级<span>Lv 3</span>
+                    </li>
+                    <li class="qianming">主播等级<span>Lv 1</span>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+       <!--朋友资料的部分结束-->
+    </div>
+</div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script src="./js/layui.js"></script>
+<script src="./js/layer.js"></script>
+<script>
+    var swiper=new Swiper(".swiper-container");
+      /*点击返回我的朋友*/
+    function skip_myfeiends(){
+        window.location.href='my_friends.html';
+    }
+</script>
+</html>

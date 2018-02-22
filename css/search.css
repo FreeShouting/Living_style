@@ -1,0 +1,299 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+}
+/*导航条的部分*/
+.nav_all{
+    width: 7.5rem;
+    height: 1rem;
+    margin: 0.2rem 0.1rem 0 0.14rem ;
+    position: fixed;
+    top:0;
+    z-index: 999;
+    background-color: #fff;
+}
+.nav_all .nav_list .nav_list_one{
+    list-style: none;
+    font-size: 0.4rem;
+    margin-top: 0.3rem;
+
+}
+.nav_list_one li{
+    float: left;
+    padding-left: 0.26rem;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.nav_list_one .don{
+    float: left;
+}
+.nav_list_one .down{
+    color: black;
+    text-decoration: underline;
+}
+
+.nav_list_one .up{
+    color: #999999;
+}
+/*底部的部分开始*/
+.footer{
+    width: 7.5rem;
+    height: 1rem;
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    background-color: white;
+}
+
+.footer .footer_list ul{
+    list-style: none;
+}
+.footer .footer_list li {
+    font-size: 0.25rem;
+    float: left;
+    margin-left: 0.4rem;
+    margin-top: 0.1rem;
+    padding: 0.4rem 0.1rem 0 0.3rem;
+
+}
+
+.footer .footer_list li a{
+    line-height: 0.6rem;
+    color: #999999;
+}
+.footer .living{
+    background: url("../img/tuijie_img/icon.png") no-repeat 4.123% 6.109%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .living>a{
+    color: black;
+}
+
+.footer .near{
+    color:#999999;
+    background: url("../img/tuijie_img/icon.png") no-repeat 12.619% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+}
+.footer .xing{
+    background: url("../img/tuijie_img/icon.png") no-repeat 21.099% 4.547%;
+    background-size: 800px 800px;
+    width: 33px;
+    height: 30px;
+}
+
+.footer .movie{
+    background: url("../img/tuijie_img/icon.png") no-repeat 29.415% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+    color:#999999;
+}
+
+.footer .my{
+    background: url("../img/tuijie_img/icon.png") no-repeat 38.948% 11.061%;
+    background-size: 800px 800px;
+    width: 29px;
+    height: 23px;
+    color:#999999;
+
+}
+/*搜索栏的定位*/
+.search_box {
+    width: 7.3rem;
+    height: 0.8rem;
+    margin-top: 1.4rem;
+}
+.search_box input{
+    display: block;
+    padding: 0.2rem 2.8rem 0.2rem 0.5rem;
+    margin-left: 0.4rem;
+    background: #eeeeee;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+/*用户、直播、搜索*/
+.menu{
+    width: 6.5rem;
+    height: 0.8rem;
+    margin-left: 0.4rem;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    font-size: 0.35rem;
+    float: left;
+    margin-top: 0.2rem;
+}
+.menu .user{
+    padding-right: 0.4rem;
+    color: black;
+    margin-left: 0.8rem;
+    margin-right: 0.2rem;
+
+}
+.menu .down{
+    color: black;
+    text-decoration: underline;
+}
+
+.menu .up{
+    color: #999999;
+}
+
+
+.yun{
+    width: 7.5rem;
+    height: 0.3rem;
+    background-color: #eeeeee;
+}
+/*中间搜索的部分*/
+.search_all{
+    width:7.5rem;
+    height: 11rem;
+}
+
+.search_info{
+    font-size: 0.5rem;
+    width: 0.5rem;
+    margin-top: 0.2rem;
+}
+.div2{
+    width: 7.5rem;
+    height: 1.5rem;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 0.1rem;
+    position: relative;
+}
+
+.div2 .dian-img img{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin: 0.2rem 0 0 0.2rem;
+    float: left;
+}
+.div2 .guanzhu{
+    width: 1.3rem;
+    height: 0.6rem;
+    background: #fd2360;
+    opacity: 0.2;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.4rem;
+    font-size: 0.4rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    line-height: 0.6rem;
+    border: 1px solid #f6cf0a;
+}
+.div2 .bianhong{
+    width: 1.3rem;
+    height: 0.6rem;
+    background: #fd2360;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.4rem;
+    font-size: 0.4rem;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    line-height: 0.6rem;
+    border: 1px solid #f6cf0a;
+}
+
+
+.div2 .dian .dian-name {
+    height: 1.3rem;
+    margin-top: 0.1rem;
+    margin-left:1.4rem;
+    position: relative;
+}
+
+.div2 .dian .dian-name ul{
+    list-style-type: none;
+}
+.div2 .dian .dian-name li{
+    font-size: 0.3rem;
+    float: left;
+    margin-left: 0.1rem;
+    margin-top: 0.3rem;
+}
+.div2 .dian-name .dian-count label{
+    color: #fc2763;
+}
+.div2 .dian-name .dian-count{
+    font-size: 0.3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0.1rem;
+    color: #999999;
+}
+.div2 .dian .dian-name .two img{
+
+    height: 0.3rem;
+    width: 0.16rem;
+}
+/*中间的内容*/
+.div3{
+    width: 7.5rem;
+    height: 2rem;
+    border-bottom: 1px solid #eeeeee;
+ /*   margin-top: 0.1rem;*/
+    position: relative;
+}
+.div3 .dian-img{
+    float: left;
+    width: 2rem;
+    height: 1.5rem;
+    border: 1px solid black;
+    margin: 0 0 0 0.2rem;
+}
+
+.div3 .dian-img img{
+   width: 2rem;
+    height: 1.5rem;
+}
+
+.div3 .dian .dian-name {
+    position: relative;
+   margin-left: 2.5rem;
+    margin-top: 0.3rem;
+}
+
+.div3 .dian .dian-name ul{
+    list-style-type: none;
+}
+
+.div3.dian .dian-name li{
+    font-size: 0.25rem;
+    margin-left: 0.1rem;
+    margin-top: 0.3rem;
+    font-family: "宋体";
+}
+.div3 .dian-name .dian-count label{
+    color: black;
+}
+.div3 .dian-name .dian-count{
+    font-size: 0.2rem;
+    left: 0.1rem;
+    color:#999999;
+}
+.div3 .dian .dian-name .one{
+    font-size: 0.4rem;
+}
+.div3 .dian .dian-name .two img{
+    height: 0.3rem;
+    width: 0.16rem;
+}

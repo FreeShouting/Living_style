@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>兴趣推送</title>
+  <link rel="stylesheet" href="./css/interest_push.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_usersrtting()"></div>
+  <h1>兴趣推送</h1>
+</div>
+<!--兴趣推送的列表-->
+      <div class="setting_list">
+        <ul>
+          <li class="yue">热门主播
+            <div class="qie_btn base"></div>
+          </li>
+          <li class="shouyi">同类主播
+            <div class="qie_btn base"></div>
+          </li>
+          <li class="xiaofei">热门视频
+            <div class="qie_btn base"></div>
+          </li>
+          <li class="benyue">星动头条
+            <div class="qie_btn base"></div>
+          </li>
+          <li class="fangshi">推送方式</li>
+          <li class="benyue">界面弹窗
+      <div class="qie_btn base"></div>
+    </li>
+    <li class="benyue">状态栏显示
+      <div class="guan_btn base"></div>
+    </li>
+  </ul>
+</div>
+
+  <div class="xingxing">
+    <img src="./img/logo/xingxing.png" alt="">
+  </div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    function skip_usersrtting() {
+        window.location.href='user_setting.html';
+    }
+    $(function () {
+        $('.base').click(function () {
+            if($(this).hasClass("qie_btn")){
+                $(this).removeClass("qie_btn");
+                $(this).addClass("guan_btn");
+            }else{
+                $(this).removeClass("guan_btn");
+                $(this).addClass("qie_btn");
+            }
+        });
+    });
+</script>
+</html>

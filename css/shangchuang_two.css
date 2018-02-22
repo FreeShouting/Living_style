@@ -1,0 +1,87 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li,
+ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top_all{
+  width: 100%;
+}
+
+.top_all h1{
+    font-size: 0.4rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.center{
+    width: 100%;
+    height: 12.3rem;
+    background: #e2e2e2;
+}
+
+.center .center_img{
+    padding: 0.4rem 0 0 1.5rem;
+}
+
+.center .fengmian{
+      width: 100%;
+    height: 1rem;
+    margin-top: 0.7rem;
+}
+
+.center .fengmian button{
+    height: 1rem;
+    width: 1rem;
+    background: #f83169;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 0.3rem;
+    margin-left: 6rem;
+}
+
+.title{
+    width: 100%;
+    height: 0.5rem;
+    margin-top: 2.5rem;
+    margin-left: 0.3rem;
+}
+
+.title input{
+    padding: 0.2rem 0.1rem 0.2rem 0.1rem;
+    border: none;
+    background: none;
+}
+
+.center .cun{
+    margin-top: 0.4rem;
+    font-size: 0.35rem;
+    color: #999999;
+    text-align:right;
+    margin-right: 0.4rem;
+    text-decoration: underline;
+}
+
+.center .cao{
+    width: 1.9rem;
+    height: 0.6rem;
+    margin-left: 0.6rem;
+    background: #f83169;
+    margin-top: 1.5rem;
+    border: none;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+
+.center .now{
+    width: 1.9rem;
+    height: 0.6rem;
+    margin-left: 2.4rem;
+    background: #f83169;
+    margin-top: 1.5rem;
+    border: none;
+    color: #fff;
+    border-radius: 0.3rem;
+}

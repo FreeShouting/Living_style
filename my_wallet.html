@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>我的钱包</title>
+  <link rel="stylesheet" href="./css/my_wallet.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_personal()"></div>
+  <h1>我的钱包</h1>
+</div>
+<!--钱包的列表-->
+  <div class="wallet_list">
+    <ul>
+      <li class="yue" onclick="skip_remaining()">可用余额
+        <span>600</span>
+        <div class="btn"></div>
+      </li>
+      <li class="shouyi" onclick="skip_income()">累计收益
+        <span>600</span>
+        <div class="btn"></div>
+      </li>
+      <li class="xiaofei" onclick="skip_consumption()">累计消费
+        <span>1万</span>
+        <div class="btn"></div>
+      </li>
+      <li class="benyue" onclick="skip_monthconsump()">本月消费
+        <span>1万</span>
+        <div class="btn"></div>
+      </li>
+    </ul>
+
+  </div>
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    /*返回个人中心*/
+    function skip_personal() {
+        window.location.href='personal.html';
+    }
+    /*跳转到可用余额的页面*/
+    function skip_remaining() {
+        window.location.href='remaining_sum.html';
+    }
+    /*跳转到累计收益的页面*/
+    function skip_income() {
+        window.location.href='accumulated_income.html';
+    }
+
+    /*跳转到累计消费的页面*/
+   function skip_consumption(){
+       window.location.href='accumulated_consumption.html';
+   }
+   /*跳转到本月消费的页面*/
+   function skip_monthconsump(){
+       window.location.href='month_consumption.html';
+   }
+</script>
+</html>

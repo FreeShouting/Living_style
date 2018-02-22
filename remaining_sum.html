@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,
+  minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>可用余额</title>
+  <link rel="stylesheet" href="./css/remaining_sum.css">
+  <link rel="stylesheet" href="./css/swiper.min.css">
+</head>
+<body>
+<!--头部的内容-->
+<div class="head">
+  <div class="head_img" onclick="skip_wallet()"></div>
+  <h1>可用余额</h1>
+</div>
+   <div class="consum_img">
+     <img src="./img/logo/remind.png" alt="">
+   </div>
+   <div class="consum_msg">
+     <p class="txt1">报告老板</p>
+     <p class="txt2">你还有</p>
+     <p class="txt3">5000 星币</p>
+   </div>
+  <div class="consum_msg1">
+  <p class="txt1">土豪</p>
+  <p class="txt2">交个朋友吧</p>
+  </div>
+
+
+</body>
+<script src="./js/auto-size.js"></script>
+<script src="./js/jquery-3.2.1.js"></script>
+<script src="./js/swiper.js"></script>
+<script>
+    /*跳转到我的钱包的页面*/
+    function skip_wallet() {
+        window.location.href='my_wallet.html';
+    }
+
+</script>
+</html>

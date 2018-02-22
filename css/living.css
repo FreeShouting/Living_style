@@ -1,0 +1,265 @@
+blockquote, body, button, dd, dl, dt, fieldset, h1, h2, h3, h4, h5,
+h6, hr, legend, li,span,
+ol, p, pre, td, textarea, th, ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    background: #e0cfb2;
+}
+.living_bg{
+    width: 100%;
+}
+
+.liv_top{
+    width: 100%;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.tou_img{
+    border-radius: 0.9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.2rem;
+    float: left;
+}
+
+.tou_img img{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.9rem;
+}
+
+.guanzhu{
+    height: 1rem;
+    width: 1rem;
+    margin-top: 0.3rem;
+    float: left;
+    margin-left: 0.1rem;
+}
+
+.guanzhu li{
+    font-size: 0.4rem;
+    font-weight: normal;
+}
+
+.touxiang .img-info{
+    float: left;
+    width: 0.98rem;
+    height: 1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+.touxiang .img-info img{
+    width: 0.98rem;
+    height:1rem;
+}
+.touxiang .one{
+    position: absolute;
+    top: 0.3rem;
+   right: 0.2rem;
+}
+.touxiang .two{
+    float: right;
+    margin-top: 0.8rem;
+    margin-right: 0.2rem;
+}
+.touxiang .one .people{
+    font-size: 0.3rem;
+   display:block;
+}
+.touxiang .two .jinbi{
+    margin-top: 0.1rem;
+    font-size: 0.3rem;
+    display: block;
+}
+.touxiang .two .jinbi img{
+    width: 0.28rem;
+    height: 0.28rem;
+}
+
+.liv_bottom{
+    width: 100%;
+    position: fixed;
+    bottom:0.2rem;
+}
+
+.liv_bottom li{
+    float: left;
+    margin-left: 0.4rem;
+}
+
+.liv_bottom li img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+/*消息框里面的内容*/
+.xiaoxi{
+    position: relative;
+
+}
+
+.xiaoxi .xiao_txt{
+    font-size: 0.4rem;
+    color: #999999;
+   position: absolute;
+    top: 2rem;
+    left: 2.5rem;
+}
+
+.xiaoxi input{
+    position: absolute;
+   top:4.2rem;
+    left: 1.3rem;
+    padding: 0.1rem 0.7rem 0.1rem 0.4rem;
+    border-radius: 0.2rem;
+    border: 1px solid #eeeeee;
+
+}
+
+.chuangkou .open_info{
+    height: 1.6rem;
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+}
+
+.chuangkou .open_info .open_img{
+     border-radius: 0.9rem;
+     width: 1.3rem;
+     height: 1.3rem;
+     margin: 0.1rem 0 0 0.2rem;
+     float: left;
+ }
+.open_info .open_img img{
+    border-radius: 0.9rem;
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.open_info .open_tag{
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+
+}
+.open_info .open_tag ul li{
+    font-size: 0.2rem;
+   line-height:0.7rem
+}
+
+.open_tag .tag_2{
+    color: #999999;
+}
+.open_info button{
+    width: 1.3rem;
+    height: 0.8rem;
+    font-size: 0.4rem;
+    position: absolute;
+    right: 0.2rem;
+    top: 0.4rem;
+    background: #e46a8d;
+    border-radius: 0.3rem;
+    border: none;
+    color: #fff;
+}
+
+.box1 li {
+    float: left;
+    margin: 0.4rem 0 0 1rem;
+
+}
+.box1 li p{
+    font-size: 0.3rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+.box1 li img{
+    width:1.17rem;
+    height: 0.98rem;
+}
+
+.box2 li {
+    float: left;
+    margin: 0.5rem 0 0 1rem;
+}
+.box2 li img{
+    width:1.17rem;
+    height: 0.98rem;
+}
+.box2 li p{
+    font-size: 0.3rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+.liwu_box{
+    position: relative;
+    height: 100%;
+}
+.liwu_box button{
+    width: 1.5rem;
+    height: 0.6rem;
+    background: #ff2662;
+    position: absolute;
+    bottom: 0.2rem;
+    right: 0.2rem;
+    outline: none;
+    border-radius: 0.4rem;
+    border: none;
+    font-size: 0.4rem;
+    color: #fff;
+
+}
+
+.luxiang_window{
+    height: 12.8rem;
+    width: 100%;
+    background: #000000;
+    opacity: 0.5;
+    display: none;
+    position: relative;
+}
+
+.tishi{
+    width: 2.3rem;
+    height: 2.3rem;
+   /* border: solid 1px #000000;
+    border-radius: 50%;*/
+    position: absolute;
+    top: 5.5rem;
+    left: 2.8rem;
+    display: none;
+}
+
+.tishi img{
+    height: 2rem;
+    width: 2rem;
+    display: block;
+}
+
+/*分享的视频*/
+.fenxiang{
+
+}
+
+.fenxiang ul li{
+  float: left;
+    margin-left: 1.2rem;
+    margin-top: 0.3rem;
+    line-height: 0.8rem;
+}
+.fenxiang ul li img{
+    height:0.86rem;
+    width: 0.86rem;
+}
+
+.fenxiang ul li p{
+    font-size: 0.3rem;
+    padding-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.fenxiang ul .p_txt{
+    margin-right: 0.1rem;
+}
